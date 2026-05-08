@@ -3,22 +3,16 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AeroGlass Reviews is an independent window cleaning robot review site.
+RedPanelLab is an independent review site focused on red light therapy panels, full-body red light devices, and home wellness lighting equipment.
 
-We physically test every robotic window cleaner and provide unbiased, 
-lab-verified rankings with zero sponsored results.
+Our goal is simple: help readers compare red light therapy panels more clearly before making a purchase.
 
-## Our Mission
+We look at product specifications, panel size, wavelength configuration, mounting options, warranty terms, seller information, and overall value. Our content is written for consumers who want a practical buying guide, not confusing marketing claims.
 
-Help homeowners and building managers find the safest, most effective 
-window cleaning robot for their needs.
+RedPanelLab is reader-supported. Some links on this site are affiliate links, which means we may earn a commission if you buy through those links, at no extra cost to you.
 
-## Our Testing Method
-
-- Every robot is tested on real windows — frameless, framed, and high-rise
-- We measure cleaning efficiency, battery life, noise, safety and app quality
-- We purchase every product ourselves — no paid placements, ever
+We are not medical professionals. Our reviews are for consumer information only and should not be treated as medical advice.
 
 ## Contact
 
-For questions or review requests, contact us at: pogudahi@gmail.com
+For questions or review requests, contact us at: pogudahi@redpanellab.com
