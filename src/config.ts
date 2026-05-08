@@ -1,15 +1,15 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/",
-  author: "AeroGlass Team",
-  profile: "https://yourdomain.com/",
+  website: "http://redpanellab.com/",
+  author: "RedPanel",
+  profile: "http://redpanellab.com/",
   desc: "Expert reviews of the best window cleaning robots.",
-  title: "AeroGlass Reviews",
+  title: "RedPanel",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: false,   // ← 关掉深色模式
+  lightAndDarkMode: false,   // 
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000,
-  showArchives: false,       // ← 关掉归档
+  showArchives: false,       // 
   showBackButton: true,
   editPost: {
     enabled: false,
