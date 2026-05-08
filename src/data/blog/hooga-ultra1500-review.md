@@ -27,7 +27,7 @@ Hooga is a US-based brand that's been in the red light therapy space for several
 
 The ULTRA1500 is their flagship full-body panel. It's a tall, wall-mountable or stand-compatible panel measuring 39.5 inches tall by 8.6 inches wide. It weighs 28 lbs. When it's running, it looks like a glowing red monolith in your room. Your partner will ask questions.
 
-**[Check current price and availability on Amazon](https://www.amazon.com/dp/B09XXXXX)**
+**[Check current price and availability on Amazon](https://www.amazon.com/Hooga-Light-Therapy-Panel-Device/dp/B0CGBSCQH7?crid=1KDPKCU6LWLI5&dib=eyJ2IjoiMSJ9.nm-Q1AFsFda6_-oJyTkDzJ3MYSyRV5h7Xa1_PP1Duii6ETjO9ENnjacOlYQwzmgtEQJmR2sXWL55PQggV0nFaEMLsbSzAmci2Tnl-kkquFlrWtQGuG9COd2BS5WVZisEidVjlpDB7VkfCTvkHGW9NMjq0UWVBGDSBFz3XpAsLjklmCj1g6ZZ9RZ41kEspPsMmknKh0sQ2RPYTyJaevF-knKfaKIhIRXPNiJkKKLh-grDG5BkMdhBaz3fDrE846qvwnhnDVN6K5By_0YbK6C-k8d0h6kJnAGSn3QH--0-0NY.HlNq2MAJGhoEorBvthZJNw84AA7hQn5w4CHQRQjYxZ4&dib_tag=se&keywords=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody&qid=1778254288&sprefix=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody%2Caps%2C627&sr=8-8&th=1&linkCode=sl2&tag=zhwei26-20&linkId=750c8710196695e9641eb7a623291baa&language=en_US&ref_=as_li_ss_tl)**
 
 ---
 
@@ -183,7 +183,7 @@ The math that makes sense for some people: clinical red light therapy sessions t
 
 The 60-day trial removes most of the purchasing risk. The 3-year warranty removes the "what if it breaks" anxiety.
 
-**[See current pricing and check for discount codes on Amazon](https://www.amazon.com/dp/B09XXXXX)**
+**[See current pricing and check for discount codes on Amazon](https://www.amazon.com/Hooga-Light-Therapy-Panel-Device/dp/B0CGBSCQH7?crid=1KDPKCU6LWLI5&dib=eyJ2IjoiMSJ9.nm-Q1AFsFda6_-oJyTkDzJ3MYSyRV5h7Xa1_PP1Duii6ETjO9ENnjacOlYQwzmgtEQJmR2sXWL55PQggV0nFaEMLsbSzAmci2Tnl-kkquFlrWtQGuG9COd2BS5WVZisEidVjlpDB7VkfCTvkHGW9NMjq0UWVBGDSBFz3XpAsLjklmCj1g6ZZ9RZ41kEspPsMmknKh0sQ2RPYTyJaevF-knKfaKIhIRXPNiJkKKLh-grDG5BkMdhBaz3fDrE846qvwnhnDVN6K5By_0YbK6C-k8d0h6kJnAGSn3QH--0-0NY.HlNq2MAJGhoEorBvthZJNw84AA7hQn5w4CHQRQjYxZ4&dib_tag=se&keywords=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody&qid=1778254288&sprefix=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody%2Caps%2C627&sr=8-8&th=1&linkCode=sl2&tag=zhwei26-20&linkId=750c8710196695e9641eb7a623291baa&language=en_US&ref_=as_li_ss_tl)**
 
 ---
 
@@ -207,7 +207,7 @@ The Hooga ULTRA1500 is a well-built, high-irradiance full-body panel with genuin
 
 The 60-day return window means you can try it with real stakes. That's about as good as it gets for a purchase at this price.
 
-**[Check the Hooga ULTRA1500 on Amazon — current price and availability](https://www.amazon.com/dp/B09XXXXX)**
+**[Check the Hooga ULTRA1500 on Amazon — current price and availability](https://www.amazon.com/Hooga-Light-Therapy-Panel-Device/dp/B0CGBSCQH7?crid=1KDPKCU6LWLI5&dib=eyJ2IjoiMSJ9.nm-Q1AFsFda6_-oJyTkDzJ3MYSyRV5h7Xa1_PP1Duii6ETjO9ENnjacOlYQwzmgtEQJmR2sXWL55PQggV0nFaEMLsbSzAmci2Tnl-kkquFlrWtQGuG9COd2BS5WVZisEidVjlpDB7VkfCTvkHGW9NMjq0UWVBGDSBFz3XpAsLjklmCj1g6ZZ9RZ41kEspPsMmknKh0sQ2RPYTyJaevF-knKfaKIhIRXPNiJkKKLh-grDG5BkMdhBaz3fDrE846qvwnhnDVN6K5By_0YbK6C-k8d0h6kJnAGSn3QH--0-0NY.HlNq2MAJGhoEorBvthZJNw84AA7hQn5w4CHQRQjYxZ4&dib_tag=se&keywords=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody&qid=1778254288&sprefix=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody%2Caps%2C627&sr=8-8&th=1&linkCode=sl2&tag=zhwei26-20&linkId=750c8710196695e9641eb7a623291baa&language=en_US&ref_=as_li_ss_tl)**
 
 ---
 
