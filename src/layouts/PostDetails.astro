@@ -69,73 +69,164 @@ const allPosts = posts.map(({ data: { title }, id, filePath }) => ({
 }));
 
 const currentPostIndex = allPosts.findIndex(a => a.id === post.id);
-const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
-const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+const prevPost = currentPostIndex > 0 ? allPosts[currentPostIndex - 1] : null;
+const nextPost =
+  currentPostIndex >= 0 && currentPostIndex < allPosts.length - 1
+    ? allPosts[currentPostIndex + 1]
+    : null;
+
+const wordCount = post.body?.trim().split(/\s+/).filter(Boolean).length ?? 0;
+const readingTime = Math.max(1, Math.ceil(wordCount / 220));
 ---
 
 <Layout {...layoutProps}>
   <Header />
-  <BackButton />
-  <main
-    id="main-content"
-    class:list={["app-layout pb-12", { "mt-8": !SITE.showBackButton }]}
-    data-pagefind-body
-  >
-    <h1
-      transition:name={slugifyStr(title.replaceAll(".", "-"))}
-      class="inline-block text-2xl font-bold text-accent sm:text-3xl"
-    >
-      {title}
-    </h1>
-    <div class="my-2 flex items-center gap-2">
-      <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
-    </div>
-    <article
-      id="article"
-      class="app-prose mt-8 w-full max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
-    >
-      <Content />
-    </article>
 
-    <ul class="mt-8 mb-6 flex flex-wrap gap-4">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />)}
-    </ul>
+  <main id="main-content" class="article-page" data-pagefind-body>
+    <section class="article-hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
 
-    <ShareLinks />
+      <div class="hero-inner">
+        <BackButton />
+
+        <div class="article-kicker">
+          <span class="kicker-dot"></span>
+          Red Light Therapy Review
+        </div>
+
+        <h1
+          transition:name={slugifyStr(title.replaceAll(".", "-"))}
+          class="article-title"
+        >
+          {title}
+        </h1>
+
+        {description && (
+          <p class="article-desc">
+            {description}
+          </p>
+        )}
+
+        <div class="article-meta-card">
+          <div class="meta-item">
+            <span class="meta-label">Published</span>
+            <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
+          </div>
+
+          <div class="meta-divider"></div>
+
+          <div class="meta-item">
+            <span class="meta-label">Reading Time</span>
+            <strong>{readingTime} min read</strong>
+          </div>
+
+          {author && (
+            <>
+              <div class="meta-divider"></div>
+              <div class="meta-item">
+                <span class="meta-label">Author</span>
+                <strong>{author}</strong>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <section class="article-shell">
+      <aside class="article-sidebar" data-pagefind-ignore>
+        <div class="sidebar-card">
+          <p class="sidebar-label">Article Tools</p>
+          <ShareLinks />
+        </div>
+
+        {tags?.length > 0 && (
+          <div class="sidebar-card">
+            <p class="sidebar-label">Topics</p>
+            <ul class="sidebar-tags">
+              {tags.map(tag => (
+                <li>
+                  <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+
+      <article
+        id="article"
+        class="article-content app-prose prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
+      >
+        <Content />
+      </article>
+    </section>
+
+    <section class="article-bottom" data-pagefind-ignore>
+      {tags?.length > 0 && (
+        <div class="bottom-tags">
+          <span>Filed under</span>
+          <ul>
+            {tags.map(tag => (
+              <li>
+                <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div class="share-panel">
+        <div>
+          <p class="share-label">Share this guide</p>
+          <h2>Found this article useful?</h2>
+        </div>
+        <ShareLinks />
+      </div>
+
+      <div class="post-nav">
+        {prevPost && (
+          <a href={getPath(prevPost.id, prevPost.filePath)} class="nav-card prev-card">
+            <div class="nav-icon">
+              <IconChevronLeft class="chevron rtl:rotate-180" />
+            </div>
+            <div>
+              <span>Previous Post</span>
+              <strong>{prevPost.title}</strong>
+            </div>
+          </a>
+        )}
+
+        {nextPost && (
+          <a href={getPath(nextPost.id, nextPost.filePath)} class="nav-card next-card">
+            <div>
+              <span>Next Post</span>
+              <strong>{nextPost.title}</strong>
+            </div>
+            <div class="nav-icon">
+              <IconChevronRight class="chevron rtl:rotate-180" />
+            </div>
+          </a>
+        )}
+      </div>
+    </section>
+
     <BackToTopButton />
-
-    <hr class="my-6 border-dashed" />
-
-    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-      {prevPost && (
-        <a href={getPath(prevPost.id, prevPost.filePath)} class="flex w-full gap-1 hover:opacity-75">
-          <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
-          <div>
-            <span>Previous Post</span>
-            <div class="text-sm text-accent/85">{prevPost.title}</div>
-          </div>
-        </a>
-      )}
-      {nextPost && (
-        <a href={getPath(nextPost.id, nextPost.filePath)} class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2">
-          <div>
-            <span>Next Post</span>
-            <div class="text-sm text-accent/85">{nextPost.title}</div>
-          </div>
-          <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
-        </a>
-      )}
-    </div>
   </main>
+
   <Footer />
 </Layout>
 
 <script is:inline data-astro-rerun>
   function createProgressBar() {
+    const existing = document.querySelector(".progress-container");
+    if (existing) existing.remove();
+
     const progressContainer = document.createElement("div");
-    progressContainer.className = "progress-container fixed top-0 z-10 h-1 w-full bg-background";
+    progressContainer.className = "progress-container";
     const progressBar = document.createElement("div");
-    progressBar.className = "progress-bar h-1 w-0 bg-accent";
+    progressBar.className = "progress-bar";
     progressBar.id = "myBar";
     progressContainer.appendChild(progressBar);
     document.body.appendChild(progressContainer);
@@ -146,7 +237,7 @@ const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostInde
     document.addEventListener("scroll", () => {
       const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
       const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (winScroll / height) * 100;
+      const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
       const myBar = document.getElementById("myBar");
       if (myBar) myBar.style.width = scrolled + "%";
     });
@@ -154,11 +245,13 @@ const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostInde
   updateScrollProgress();
 
   function addHeadingLinks() {
-    const headings = Array.from(document.querySelectorAll("h2, h3, h4, h5, h6"));
+    const headings = Array.from(document.querySelectorAll("#article h2, #article h3, #article h4, #article h5, #article h6"));
     for (const heading of headings) {
+      if (heading.querySelector(".heading-link")) continue;
+
       heading.classList.add("group");
       const link = document.createElement("a");
-      link.className = "heading-link ms-2 no-underline opacity-75 md:opacity-0 md:group-hover:opacity-100 md:focus:opacity-100";
+      link.className = "heading-link";
       link.href = "#" + heading.id;
       const span = document.createElement("span");
       span.ariaHidden = "true";
@@ -172,29 +265,43 @@ const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostInde
   function attachCopyButtons() {
     const copyButtonLabel = "Copy";
     const codeBlocks = Array.from(document.querySelectorAll("pre"));
+
     for (const codeBlock of codeBlocks) {
+      if (codeBlock.querySelector(".copy-code")) continue;
+
       const wrapper = document.createElement("div");
       wrapper.style.position = "relative";
-      const computedStyle = getComputedStyle(codeBlock);
-      const hasFileNameOffset = computedStyle.getPropertyValue("--file-name-offset").trim() !== "";
-      const topClass = hasFileNameOffset ? "top-(--file-name-offset)" : "-top-3";
+
       const copyButton = document.createElement("button");
-      copyButton.className = `copy-code absolute end-3 ${topClass} rounded bg-muted border border-muted px-2 py-1 text-xs leading-4 text-foreground font-medium`;
+      copyButton.className = "copy-code";
       copyButton.innerHTML = copyButtonLabel;
+
       codeBlock.setAttribute("tabindex", "0");
       codeBlock.appendChild(copyButton);
       codeBlock?.parentNode?.insertBefore(wrapper, codeBlock);
       wrapper.appendChild(codeBlock);
+
       copyButton.addEventListener("click", async () => {
         await copyCode(codeBlock, copyButton);
       });
     }
+
     async function copyCode(block, button) {
       const code = block.querySelector("code");
       const text = code?.innerText;
-      await navigator.clipboard.writeText(text ?? "");
-      button.innerText = "Copied";
-      setTimeout(() => { button.innerText = copyButtonLabel; }, 700);
+
+      try {
+        await navigator.clipboard.writeText(text ?? "");
+        button.innerText = "Copied";
+        setTimeout(() => {
+          button.innerText = copyButtonLabel;
+        }, 900);
+      } catch {
+        button.innerText = "Failed";
+        setTimeout(() => {
+          button.innerText = copyButtonLabel;
+        }, 900);
+      }
     }
   }
   attachCopyButtons();
@@ -203,3 +310,499 @@ const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostInde
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
   );
 </script>
+
+<style>
+  :global(.progress-container) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 4px;
+    background: rgba(253, 246, 238, 0.85);
+    backdrop-filter: blur(10px);
+  }
+
+  :global(.progress-bar) {
+    width: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #e8703a, #c4461d, #8b2c10);
+    box-shadow: 0 0 18px rgba(196, 70, 29, 0.45);
+  }
+
+  :global(.copy-code) {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 1px solid rgba(255, 184, 138, 0.28);
+    border-radius: 10px;
+    background: rgba(42, 24, 16, 0.9);
+    color: #fdf6ee;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  :global(.heading-link) {
+    margin-left: 10px;
+    color: #c4461d;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  :global(.group:hover .heading-link),
+  :global(.heading-link:focus) {
+    opacity: 1;
+  }
+
+  .article-page {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at 12% 6%, rgba(232, 112, 58, 0.2), transparent 34%),
+      radial-gradient(circle at 88% 12%, rgba(196, 70, 29, 0.14), transparent 32%),
+      linear-gradient(180deg, #fdf6ee 0%, #fffaf5 38%, #fdf6ee 100%);
+    color: #2a1810;
+  }
+
+  .article-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 64px 24px 76px;
+    border-bottom: 1px solid rgba(196, 110, 60, 0.12);
+  }
+
+  .hero-glow {
+    position: absolute;
+    border-radius: 999px;
+    pointer-events: none;
+    filter: blur(2px);
+  }
+
+  .hero-glow-one {
+    width: 520px;
+    height: 520px;
+    left: -220px;
+    top: -220px;
+    background: radial-gradient(circle, rgba(255, 184, 138, 0.55), transparent 68%);
+  }
+
+  .hero-glow-two {
+    width: 560px;
+    height: 560px;
+    right: -220px;
+    bottom: -280px;
+    background: radial-gradient(circle, rgba(196, 70, 29, 0.2), transparent 70%);
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .article-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+    margin-bottom: 24px;
+    padding: 9px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(196, 70, 29, 0.16);
+    color: #c4461d;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    box-shadow: 0 10px 30px rgba(196, 70, 29, 0.06);
+  }
+
+  .kicker-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c4461d;
+    box-shadow: 0 0 0 6px rgba(196, 70, 29, 0.12);
+  }
+
+  .article-title {
+    max-width: 980px;
+    margin: 0;
+    color: #2a1810;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(40px, 6.5vw, 76px);
+    font-weight: 900;
+    line-height: 1.03;
+    letter-spacing: -2.4px;
+  }
+
+  .article-desc {
+    max-width: 760px;
+    margin: 24px 0 0;
+    color: #6b4537;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  .article-meta-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 36px;
+    padding: 18px 22px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid rgba(196, 110, 60, 0.14);
+    box-shadow: 0 16px 42px rgba(196, 70, 29, 0.08);
+    backdrop-filter: blur(14px);
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .meta-label {
+    color: #a08470;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .meta-item strong {
+    color: #2a1810;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .meta-divider {
+    width: 1px;
+    height: 34px;
+    background: rgba(196, 110, 60, 0.18);
+  }
+
+  .article-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 230px) minmax(0, 820px);
+    gap: 38px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 40px 42px;
+  }
+
+  .article-sidebar {
+    position: sticky;
+    top: 96px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .sidebar-card {
+    padding: 22px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(196, 110, 60, 0.13);
+    box-shadow: 0 14px 34px rgba(196, 70, 29, 0.06);
+  }
+
+  .sidebar-label {
+    margin: 0 0 14px;
+    color: #c4461d;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+
+  .sidebar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .article-content {
+    width: 100%;
+    max-width: none;
+    padding: 48px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.86);
+    border: 1px solid rgba(196, 110, 60, 0.13);
+    box-shadow: 0 22px 58px rgba(196, 70, 29, 0.08);
+  }
+
+  .article-content :global(h2) {
+    margin-top: 2.1em;
+    color: #2a1810;
+    font-size: 1.85em;
+    line-height: 1.18;
+    letter-spacing: -0.6px;
+  }
+
+  .article-content :global(h3) {
+    margin-top: 1.8em;
+    color: #3a2318;
+    font-size: 1.35em;
+  }
+
+  .article-content :global(p) {
+    color: #5f3d30;
+    line-height: 1.86;
+  }
+
+  .article-content :global(a) {
+    color: #c4461d;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  .article-content :global(blockquote) {
+    border-left: 4px solid #c4461d;
+    background: #fdf6ee;
+    border-radius: 0 18px 18px 0;
+    padding: 18px 22px;
+    color: #6b4537;
+  }
+
+  .article-content :global(img) {
+    border-radius: 22px;
+    box-shadow: 0 14px 34px rgba(42, 24, 16, 0.12);
+  }
+
+  .article-content :global(pre) {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(196, 110, 60, 0.14);
+    box-shadow: 0 14px 34px rgba(42, 24, 16, 0.08);
+  }
+
+  .article-content :global(table) {
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid rgba(196, 110, 60, 0.14);
+  }
+
+  .article-bottom {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 40px 84px;
+  }
+
+  .bottom-tags {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    padding: 22px 24px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(196, 110, 60, 0.13);
+  }
+
+  .bottom-tags span {
+    color: #a08470;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .bottom-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .share-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 26px;
+    padding: 30px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #2a1810, #5a2414);
+    color: #fdf6ee;
+    box-shadow: 0 18px 48px rgba(42, 24, 16, 0.18);
+  }
+
+  .share-label {
+    margin: 0 0 6px;
+    color: #ffb88a;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+
+  .share-panel h2 {
+    margin: 0;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(24px, 4vw, 36px);
+    line-height: 1.15;
+  }
+
+  .post-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .nav-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 132px;
+    padding: 24px;
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(196, 110, 60, 0.13);
+    box-shadow: 0 16px 38px rgba(196, 70, 29, 0.07);
+    text-decoration: none;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  }
+
+  .nav-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(196, 70, 29, 0.3);
+    box-shadow: 0 22px 52px rgba(196, 70, 29, 0.12);
+  }
+
+  .next-card {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .nav-card span {
+    display: block;
+    margin-bottom: 6px;
+    color: #c4461d;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .nav-card strong {
+    display: block;
+    color: #2a1810;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .nav-icon {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: #fef2ec;
+    color: #c4461d;
+  }
+
+  .chevron {
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 980px) {
+    .article-shell {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 54px 24px 34px;
+    }
+
+    .article-sidebar {
+      position: static;
+      order: 2;
+      display: none;
+    }
+
+    .article-content {
+      padding: 36px 28px;
+      border-radius: 26px;
+    }
+
+    .article-bottom {
+      padding: 0 24px 68px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .article-hero {
+      padding: 46px 20px 58px;
+    }
+
+    .article-title {
+      letter-spacing: -1.4px;
+    }
+
+    .article-desc {
+      font-size: 16px;
+    }
+
+    .article-meta-card {
+      width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .meta-divider {
+      width: 100%;
+      height: 1px;
+    }
+
+    .article-content {
+      padding: 30px 22px;
+    }
+
+    .share-panel {
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 26px 22px;
+    }
+
+    .post-nav {
+      grid-template-columns: 1fr;
+    }
+
+    .next-card {
+      text-align: left;
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .article-kicker {
+      font-size: 10px;
+      letter-spacing: 1.2px;
+    }
+
+    .article-content {
+      padding: 26px 18px;
+      border-radius: 22px;
+    }
+
+    .bottom-tags {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+</style>
