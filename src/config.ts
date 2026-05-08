@@ -1,9 +1,9 @@
 export const SITE = {
   website: "http://redpanellab.com/",
-  author: "RedPanel",
+  author: "RedPanellab",
   profile: "http://redpanellab.com/",
   desc: "Expert reviews of the best window cleaning robots.",
-  title: "RedPanel",
+  title: "RedPanellab",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,   // 
   postPerIndex: 4,
