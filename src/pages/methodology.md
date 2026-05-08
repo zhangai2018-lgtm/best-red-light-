@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Our Review Methodology"
 ---
 At RedPanelLab, our rankings are based on an editorial review process.
 
