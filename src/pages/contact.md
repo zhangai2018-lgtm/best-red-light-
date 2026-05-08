@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Contact Us"
 ---
 Have a question, correction, or product suggestion?
 
