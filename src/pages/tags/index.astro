@@ -1,0 +1,79 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Tag from "@/components/Tag.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import getUniqueTags from "@/utils/getUniqueTags";
+import { SITE } from "@/config";
+
+const posts = await getCollection("blog");
+let tags = getUniqueTags(posts);
+---
+
+<Layout title={`Tags | ${SITE.title}`}>
+  <Header />
+  <main class="tags-main">
+    <div class="tags-header">
+      <div class="tags-eyebrow"><span class="dot"></span> Browse by topic</div>
+      <h1>Tags</h1>
+    </div>
+    <ul class="tags-list">
+      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} />)}
+    </ul>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .tags-main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 40px 60px;
+  }
+
+  .tags-header {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .tags-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 10px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2563eb;
+  }
+
+  .tags-header h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    color: #0a0a0a;
+    line-height: 1.05;
+  }
+
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+  }
+
+  @media (max-width: 640px) {
+    .tags-main { padding: 32px 20px 40px; }
+  }
+</style>

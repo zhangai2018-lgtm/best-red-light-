@@ -1,0 +1,70 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { slugifyStr } from "@/utils/slugify";
+import { getPath } from "@/utils/getPath";
+import Datetime from "./Datetime.astro";
+
+type Props = {
+  variant?: "h2" | "h3";
+} & CollectionEntry<"blog">;
+
+const { variant: Heading = "h2", id, data, filePath } = Astro.props;
+const { title, description, ...props } = data;
+---
+
+<li class="post-card">
+  <a href={getPath(id, filePath)} class="post-card-link">
+    <Heading
+      class="post-title"
+      style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+    >
+      {title}
+    </Heading>
+  </a>
+  <Datetime {...props} />
+  <p class="post-desc">{description}</p>
+</li>
+
+<style>
+  .post-card {
+    list-style: none;
+    background: #fff;
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 14px;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .post-card:hover {
+    border-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(37, 99, 235, 0.10);
+  }
+
+  .post-card-link {
+    text-decoration: none;
+  }
+
+  .post-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0a0a0a;
+    letter-spacing: -0.2px;
+    line-height: 1.4;
+    margin: 0 0 6px 0;
+    transition: color 0.15s;
+  }
+
+  .post-card-link:hover .post-title {
+    color: #2563eb;
+  }
+
+  .post-desc {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.7;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+</style>

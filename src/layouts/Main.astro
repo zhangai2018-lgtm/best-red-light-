@@ -1,0 +1,51 @@
+---
+export interface Props {
+  pageTitle: string;
+  pageDesc?: string;
+  updatedDate?: string;
+}
+const {
+  pageTitle,
+  pageDesc = "Updated expert reviews and guides for 2026.",
+} = Astro.props;
+---
+<main id="main-content">
+  <div class="page-header">
+    <h1 class="page-title">{pageTitle}</h1>
+    {pageDesc && <p class="page-desc">{pageDesc}</p>}
+  </div>
+  <div class="content-wrapper">
+    <slot />
+  </div>
+</main>
+
+<style>
+  .page-header {
+    padding: 36px 40px 28px;
+    border-bottom: 1px solid #f0f0f0;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .page-title {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    color: #0a0a0a;
+    line-height: 1.05;
+    margin-bottom: 6px;
+  }
+  .page-desc {
+    font-size: 15px;
+    color: #6b7280;
+    font-weight: 400;
+  }
+  .content-wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 28px 40px 60px;
+  }
+  @media (max-width: 640px) {
+    .page-header { padding: 24px 20px 20px; }
+    .content-wrapper { padding: 20px 20px 40px; }
+  }
+</style>

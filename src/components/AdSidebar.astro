@@ -1,0 +1,148 @@
+---
+---
+<div class="ad-banner">
+  <div class="ad-banner-inner">
+
+    <div class="ad-item featured">
+      <div class="ad-rank">#1 Best Overall</div>
+      <div class="ad-info">
+        <div class="ad-badge">🏆 Editor's Pick 2026</div>
+        <div class="ad-name">HOBOT-2S Pro</div>
+        <div class="ad-stars">★★★★★ <span>4.8</span> <small>(2,847 reviews)</small></div>
+      </div>
+      <div class="ad-price-wrap">
+        <div class="ad-price">$299</div>
+        <a href="https://amazon.com/dp/YOURLINK1" class="ad-btn dark" target="_blank" rel="noopener sponsored">
+          Buy on Amazon →
+        </a>
+      </div>
+    </div>
+
+    <div class="ad-item">
+      <div class="ad-rank">#2 Best Value</div>
+      <div class="ad-info">
+        <div class="ad-badge green">💰 Best Value</div>
+        <div class="ad-name">Ecovacs Winbot W1 Pro</div>
+        <div class="ad-stars">★★★★½ <span>4.5</span> <small>(1,203 reviews)</small></div>
+      </div>
+      <div class="ad-price-wrap">
+        <div class="ad-price">$189</div>
+        <a href="https://amazon.com/dp/YOURLINK2" class="ad-btn outline" target="_blank" rel="noopener sponsored">
+          Buy on Amazon →
+        </a>
+      </div>
+    </div>
+
+    <div class="ad-item">
+      <div class="ad-rank">#3 Premium</div>
+      <div class="ad-info">
+        <div class="ad-badge amber">⭐ Premium Pick</div>
+        <div class="ad-name">Gladwell Gecko</div>
+        <div class="ad-stars">★★★★★ <span>4.9</span> <small>(986 reviews)</small></div>
+      </div>
+      <div class="ad-price-wrap">
+        <div class="ad-price">$459</div>
+        <a href="https://amazon.com/dp/YOURLINK3" class="ad-btn outline" target="_blank" rel="noopener sponsored">
+          Buy on Amazon →
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <p class="ad-disclaimer">As an Amazon Associate we earn from qualifying purchases.</p>
+</div>
+
+<style>
+  .ad-banner {
+    margin: 32px 0 0;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 24px;
+  }
+  .ad-banner-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ad-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 14px;
+    padding: 16px 20px;
+    transition: border-color 0.2s;
+  }
+  .ad-item:hover { border-color: #2563eb; }
+  .ad-item.featured { border: 2px solid #0a0a0a; }
+  .ad-rank {
+    font-size: 11px;
+    font-weight: 800;
+    color: #fff;
+    background: #0a0a0a;
+    border-radius: 6px;
+    padding: 4px 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .ad-item.featured .ad-rank { background: #2563eb; }
+  .ad-info { flex: 1; min-width: 0; }
+  .ad-badge {
+    font-size: 11px;
+    font-weight: 700;
+    background: #eff6ff;
+    color: #2563eb;
+    border-radius: 6px;
+    padding: 2px 8px;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .ad-badge.green { background: #f0fdf4; color: #15803d; }
+  .ad-badge.amber { background: #fffbeb; color: #b45309; }
+  .ad-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin-bottom: 2px;
+  }
+  .ad-stars {
+    font-size: 12px;
+    color: #f59e0b;
+  }
+  .ad-stars span { color: #0a0a0a; font-weight: 700; }
+  .ad-stars small { color: #bbb; }
+  .ad-price-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  .ad-price {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0a0a0a;
+  }
+  .ad-btn {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 8px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .ad-btn.dark { background: #0a0a0a; color: #fff; }
+  .ad-btn.dark:hover { background: #2563eb; }
+  .ad-btn.outline { border: 1.5px solid #e0e0e0; color: #0a0a0a; }
+  .ad-btn.outline:hover { border-color: #2563eb; color: #2563eb; }
+  .ad-disclaimer {
+    font-size: 11px;
+    color: #bbb;
+    margin-top: 12px;
+    text-align: center;
+  }
+  @media (max-width: 640px) {
+    .ad-item { flex-wrap: wrap; }
+    .ad-price-wrap { flex-direction: row; align-items: center; width: 100%; justify-content: space-between; }
+  }
+</style>

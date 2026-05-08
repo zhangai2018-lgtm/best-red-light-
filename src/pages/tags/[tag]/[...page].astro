@@ -1,0 +1,111 @@
+---
+import { getCollection } from "astro:content";
+import type { GetStaticPathsOptions } from "astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Card from "@/components/Card.astro";
+import Pagination from "@/components/Pagination.astro";
+import getUniqueTags from "@/utils/getUniqueTags";
+import getPostsByTag from "@/utils/getPostsByTag";
+import { SITE } from "@/config";
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const posts = await getCollection("blog");
+  const tags = getUniqueTags(posts);
+
+  return tags.flatMap(({ tag, tagName }) => {
+    const tagPosts = getPostsByTag(posts, tag);
+    return paginate(tagPosts, {
+      params: { tag },
+      props: { tagName },
+      pageSize: SITE.postPerPage,
+    });
+  });
+}
+
+const { page, tagName } = Astro.props;
+
+const metaTitle = `${tagName} Reviews — Expert Lab Tests 2026 | ${SITE.title}`;
+const metaDescription = `Expert reviews and lab-tested rankings for ${tagName}. Unbiased results, zero sponsored content.`;
+---
+
+<Layout title={metaTitle} description={metaDescription}>
+  <Header />
+  <main class="tag-main">
+    <div class="tag-header">
+      <div class="tag-eyebrow"><span class="tag-dot"></span> Tag</div>
+      <h1>{tagName}</h1>
+      <p>{page.total} article{page.total !== 1 ? "s" : ""} · Page {page.currentPage} of {page.lastPage}</p>
+    </div>
+    <div class="tag-content">
+      <ul class="posts-list">
+        {page.data.map(post => <Card {...post} />)}
+      </ul>
+      <Pagination {page} />
+    </div>
+  </main>
+  <Footer noMarginTop={true} />
+</Layout>
+
+<style>
+  .tag-main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 40px 60px;
+  }
+
+  .tag-header {
+    padding: 48px 0 36px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 36px;
+  }
+
+  .tag-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 12px;
+  }
+
+  .tag-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2563eb;
+  }
+
+  .tag-header h1 {
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: #0a0a0a;
+    margin-bottom: 8px;
+    line-height: 1.05;
+  }
+
+  .tag-header p {
+    font-size: 14px;
+    color: #94a3b8;
+    font-weight: 500;
+  }
+
+  .tag-content { }
+
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (max-width: 640px) {
+    .tag-main { padding: 0 20px 40px; }
+    .tag-header { padding: 32px 0 24px; }
+  }
+</style>
