@@ -14,22 +14,22 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Best Red Light Therapy Panel Full Body 2026 — Expert Reviews & Top Picks</title>
-  <meta name="description" content="Looking for the best red light therapy panel for full body use in 2026? We compared 30+ red light panels for full body coverage, irradiance, and value. See our top 3 picks."/>
+  <title>Best Red Light Therapy Panel Full Body 2026 — Independent Reviews | RedGlow Reviews</title>
+  <meta name="description" content="Looking for the best red light therapy panel for full body use in 2026? Our independent editorial team compares red light panels for full body coverage, wavelength, and value."/>
   <meta name="keywords" content="best red light therapy panel full body, best red light panels, red light full body panel, red light therapy full body panels"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Best Red Light Therapy Panel Full Body 2026 — Expert Reviews"/>
-  <meta property="og:description" content="We compared 30+ red light therapy full body panels. Independent rankings, hands-on testing."/>
+  <meta property="og:title" content="Best Red Light Therapy Panel Full Body 2026 — RedGlow Reviews"/>
+  <meta property="og:description" content="Independent editorial reviews of the best red light therapy full body panels for 2026."/>
   <meta property="og:image" content="/images/og-cover.jpg"/>
-  <link rel="canonical" href="https://yourdomain.com/"/>
+  <link rel="canonical" href="https://best-red-light.vercel.app/"/>
 
   <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "RedGlow Reviews",
-    "url": "https://yourdomain.com",
-    "description": "Independent reviews of the best red light therapy panels for full body use"
+    "url": "https://best-red-light.vercel.app",
+    "description": "Independent editorial reviews of the best red light therapy panels for full body use"
   }
   </script>
 
@@ -43,7 +43,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         "name": "What is the best red light therapy panel for full body use in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Based on our hands-on comparison of 30+ red light panels, the BIOMAX 900 leads our 2026 best red light therapy panel full body rankings due to its 660nm/850nm dual wavelength output, large coverage area, and high irradiance at distance."
+          "text": "Based on our editorial comparison, the BIOMAX 900 leads our 2026 best red light therapy panel full body rankings due to its 660nm/850nm dual wavelength output, modular design, and overall build quality."
         }
       },
       {
@@ -51,15 +51,15 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         "name": "What size red light panel do I need for full body coverage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "For true full body red light therapy, look for panels around 36 inches tall or larger, or use two panels side-by-side. Many of the best red light panels in the 1000W+ class deliver enough coverage to treat the entire torso in one session."
+          "text": "For a true full body red light therapy session, look for panels around 36 inches tall or larger, or use a stackable system. Many of the best red light panels in the larger LED class deliver enough coverage to treat the entire torso in one session."
         }
       },
       {
         "@type": "Question",
-        "name": "Are full body red light therapy panels worth the price?",
+        "name": "Are full body red light therapy panels worth it?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "If you plan to use red light therapy regularly, a full body panel typically pays for itself within a year compared to clinic visits. Smaller targeted panels work for spot treatment, but full body panels save significant time per session."
+          "text": "If you plan to use red light therapy regularly, a full body panel can save significant time per session compared to smaller targeted panels. The right choice depends on your usage frequency, available space, and budget."
         }
       },
       {
@@ -67,7 +67,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         "name": "What wavelengths should the best red light panels have?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The most studied wavelengths are 660nm (red light) and 850nm (near-infrared). The best red light therapy full body panels output both, so you get surface and deep-tissue coverage in a single session."
+          "text": "The most studied wavelengths are 660nm (red light) and 850nm (near-infrared). The best red light therapy full body panels output both, so you get surface and deeper coverage in a single session."
         }
       }
     ]
@@ -112,16 +112,54 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       backdrop-filter: blur(14px);
       border-bottom: 1px solid rgba(196, 110, 60, 0.12);
     }
+
+    /* ========= Logo (放大优化) ========= */
     .logo {
       font-family: 'Fraunces', serif;
-      font-size: 22px; font-weight: 800; color: #2a1810;
-      display: flex; align-items: center; gap: 10px;
+      display: flex; align-items: center; gap: 12px;
+      letter-spacing: -0.5px;
     }
-    .logo-dot {
-      width: 14px; height: 14px; border-radius: 50%;
-      background: radial-gradient(circle at 30% 30%, #ffb88a, #c4461d);
-      box-shadow: 0 0 14px rgba(196, 70, 29, 0.5);
+    .logo-mark {
+      position: relative;
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 32% 30%,
+        #ffd9b8 0%,
+        #ff9656 30%,
+        #c4461d 70%,
+        #6b1f08 100%);
+      box-shadow:
+        0 0 0 2px rgba(196, 70, 29, 0.08),
+        0 0 26px rgba(232, 112, 58, 0.55),
+        inset 0 -3px 10px rgba(107, 31, 8, 0.4);
+      flex-shrink: 0;
     }
+    .logo-mark::after {
+      content: '';
+      position: absolute;
+      top: 7px; left: 10px;
+      width: 13px; height: 9px;
+      background: rgba(255, 240, 220, 0.6);
+      border-radius: 50%;
+      filter: blur(2px);
+    }
+    .logo-text {
+      display: flex; flex-direction: column;
+      line-height: 1;
+    }
+    .logo-text .top {
+      color: #2a1810;
+      font-size: 24px; font-weight: 800;
+    }
+    .logo-text .bot {
+      color: #c4461d;
+      font-size: 11px; font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 2.5px;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
     .nav-links { display: flex; gap: 32px; align-items: center; }
     .nav-links a { font-size: 14px; color: #6b4537; font-weight: 500; transition: color 0.2s; }
     .nav-links a:hover { color: #c4461d; }
@@ -191,7 +229,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     .hero-sub {
       position: relative;
       font-size: 19px; color: #6b4537;
-      max-width: 620px; line-height: 1.7;
+      max-width: 640px; line-height: 1.7;
       margin-bottom: 14px;
     }
     .hero-proof {
@@ -360,6 +398,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       grid-template-rows: repeat(5, 1fr);
       gap: 4px;
       padding: 10px;
+      background: #1a0f08;
     }
     .pick-icon::before {
       content: ''; position: absolute; inset: 0;
@@ -368,8 +407,9 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       pointer-events: none;
     }
     .pick-icon span {
-      background: radial-gradient(circle, rgba(255, 200, 150, 0.9), rgba(255, 140, 80, 0.6));
+      background: radial-gradient(circle, rgba(255, 200, 150, 0.95), rgba(255, 110, 50, 0.7));
       border-radius: 50%;
+      box-shadow: 0 0 6px rgba(255, 140, 80, 0.7);
     }
     .pick-body {
       padding: 26px 26px 28px;
@@ -395,18 +435,42 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     }
     .pick-tag {
       font-size: 13px; color: #8c6852;
-      margin-bottom: 14px;
-    }
-    .pick-stars {
-      font-size: 13px; color: #e8703a;
       margin-bottom: 16px;
-      letter-spacing: 1px;
     }
-    .pick-stars span {
-      color: #2a1810; font-weight: 700;
-      margin-left: 5px; letter-spacing: 0;
+
+    /* ========= 编辑评分(替代 Amazon star ratings)========= */
+    .editor-score {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 16px;
+      background: linear-gradient(135deg, #fdf6ee, #fce8d4);
+      border-radius: 12px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(196, 110, 60, 0.12);
     }
-    .pick-stars small { color: #a08470; letter-spacing: 0; }
+    .editor-score-num {
+      font-family: 'Fraunces', serif;
+      font-size: 28px; font-weight: 800;
+      color: #c4461d;
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+    .editor-score-num small {
+      font-size: 14px; color: #8c6852;
+      font-weight: 600;
+    }
+    .editor-score-meta {
+      font-size: 11px; color: #8c6852;
+      line-height: 1.4;
+    }
+    .editor-score-meta strong {
+      display: block;
+      color: #2a1810; font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
     .pick-features {
       list-style: none;
       margin-bottom: 18px;
@@ -424,14 +488,10 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       position: absolute; left: 0;
       color: #c4461d; font-weight: 700;
     }
-    .pick-price {
-      font-family: 'Fraunces', serif;
-      font-size: 26px; font-weight: 700;
-      color: #2a1810; margin-bottom: 4px;
-    }
-    .pick-price-note {
+    .pick-cta-note {
       font-size: 12px; color: #a08470;
-      margin-bottom: 18px;
+      margin-bottom: 14px;
+      text-align: center;
     }
     .pick-btn {
       display: block; text-align: center;
@@ -448,15 +508,6 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     .pick-btn.primary:hover {
       transform: translateY(-1px);
       box-shadow: 0 10px 24px rgba(196, 70, 29, 0.4);
-    }
-    .pick-btn.outline {
-      border: 1.5px solid rgba(196, 70, 29, 0.25);
-      color: #c4461d;
-      background: #fff;
-    }
-    .pick-btn.outline:hover {
-      border-color: #c4461d;
-      background: #fef2ec;
     }
     .pick-btn-secondary {
       display: block; text-align: center;
@@ -687,20 +738,27 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       border-color: #c4461d;
     }
 
-    /* ========= Medical Disclaimer ========= */
-    .medical-disclaimer {
+    /* ========= Disclaimers ========= */
+    .disclaimer-block {
       background: #fdf6ee;
       padding: 40px 24px;
       border-top: 1px solid rgba(196, 110, 60, 0.1);
       border-bottom: 1px solid rgba(196, 110, 60, 0.1);
     }
-    .medical-disclaimer-inner {
-      max-width: 900px; margin: 0 auto;
+    .disclaimer-inner {
+      max-width: 920px; margin: 0 auto;
       font-size: 13px; color: #8c6852;
-      line-height: 1.7;
-      text-align: center;
+      line-height: 1.75;
     }
-    .medical-disclaimer strong { color: #2a1810; }
+    .disclaimer-inner h4 {
+      font-family: 'Fraunces', serif;
+      font-size: 14px; color: #2a1810;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+    .disclaimer-inner p { margin-bottom: 16px; }
+    .disclaimer-inner p:last-child { margin-bottom: 0; }
 
     /* ========= Footer ========= */
     footer {
@@ -708,9 +766,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       padding: 50px 48px 32px;
       color: #c9b8a8;
     }
-    .footer-inner {
-      max-width: 1200px; margin: 0 auto;
-    }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
     .footer-top {
       display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
       gap: 48px; padding-bottom: 32px;
@@ -720,7 +776,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     .footer-brand .footer-logo {
       font-family: 'Fraunces', serif;
       font-size: 22px; font-weight: 800;
-      color: #fdf6ee; margin-bottom: 10px;
+      color: #fdf6ee; margin-bottom: 12px;
       display: flex; align-items: center; gap: 10px;
     }
     .footer-brand p {
@@ -755,6 +811,9 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     @media (max-width: 640px) {
       nav { padding: 14px 18px; }
       .nav-links { display: none; }
+      .logo-mark { width: 34px; height: 34px; }
+      .logo-text .top { font-size: 19px; }
+      .logo-text .bot { font-size: 9px; letter-spacing: 2px; }
       .hero { padding: 70px 20px 60px; min-height: auto; }
       .hero h1 { letter-spacing: -1.2px; }
       .section, .why-section, .picks-section, .guide-section, .compare-section, .faq-section, .posts-section { padding: 64px 20px; }
@@ -770,11 +829,17 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
 
 <!-- Affiliate Disclosure (Amazon Associate Compliance) -->
 <div class="disclosure-bar">
-  As an Amazon Associate I earn from qualifying purchases. <a href="/disclosure/">Full disclosure →</a>
+  As an Amazon Associate, RedGlow Reviews earns from qualifying purchases. <a href="/disclosure/">Full disclosure →</a>
 </div>
 
 <nav>
-  <a href="/" class="logo"><span class="logo-dot"></span> RedGlow Reviews</a>
+  <a href="/" class="logo">
+    <span class="logo-mark"></span>
+    <span class="logo-text">
+      <span class="top">RedGlow</span>
+      <span class="bot">REVIEWS</span>
+    </span>
+  </a>
   <div class="nav-links">
     <a href="#picks">Top Picks</a>
     <a href="#guide">Buying Guide</a>
@@ -786,19 +851,19 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="hero-badge"><span class="badge-dot"></span> Updated April 2026 · 30+ Panels Compared</div>
+  <div class="hero-badge"><span class="badge-dot"></span> Editorial Review · Updated April 2026</div>
   <h1>The Best <em>Red Light Therapy Panel</em> for Full Body Use in 2026</h1>
-  <p class="hero-sub">We hands-on compared 30+ red light therapy full body panels for irradiance, coverage, wavelength accuracy, and value. Independent picks — no sponsored rankings.</p>
-  <p class="hero-proof"><strong>30+</strong> panels compared &nbsp;·&nbsp; <strong>4 wavelength tests</strong> per unit &nbsp;·&nbsp; <strong>180k+</strong> monthly readers</p>
+  <p class="hero-sub">Our independent editorial team compared red light therapy full body panels by coverage area, wavelength configuration, and build quality. No sponsored placements — just our honest take.</p>
+  <p class="hero-proof"><strong>Independent</strong> editorial picks &nbsp;·&nbsp; <strong>No</strong> sponsored placements &nbsp;·&nbsp; <strong>Reader-supported</strong> via affiliate links</p>
   <div class="hero-btns">
     <a href="#picks" class="btn-primary">See Top 3 Picks →</a>
     <a href="#guide" class="btn-secondary">Read Buying Guide</a>
   </div>
   <div class="trust">
-    <div class="trust-item">🔬 <strong>Hands-on tested</strong> by our team</div>
-    <div class="trust-item">🚫 <strong>No paid placements</strong></div>
-    <div class="trust-item">📏 <strong>Irradiance verified</strong> at 6"</div>
-    <div class="trust-item">🔄 <strong>Updated monthly</strong></div>
+    <div class="trust-item">📝 <strong>Editorial reviews</strong> by our team</div>
+    <div class="trust-item">🚫 <strong>No paid rankings</strong></div>
+    <div class="trust-item">🔍 <strong>Spec-based</strong> comparison</div>
+    <div class="trust-item">🔄 <strong>Refreshed monthly</strong></div>
   </div>
 </section>
 
@@ -808,38 +873,38 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     <div class="why-header">
       <div class="section-label">Why Full Body Coverage</div>
       <h2 class="section-title">What Sets the Best Red Light Panels Apart</h2>
-      <p class="section-desc">Not every panel labeled "full body" actually delivers full body coverage. Here's what we look for in every red light therapy full body panel we review.</p>
+      <p class="section-desc">Not every panel labeled "full body" actually delivers full body coverage. Here's what we look at when reviewing any red light therapy full body panel.</p>
     </div>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-icon">📏</div>
         <h3>True Full Body Coverage</h3>
-        <p>The best red light therapy panel for full body use should treat torso-to-thigh in one session. We measure actual treatment area, not marketing claims.</p>
+        <p>The best red light therapy panel for full body use should treat torso-to-thigh in one session. We look at actual treatment area, not just marketing claims.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">⚡</div>
-        <h3>Verified Irradiance</h3>
-        <p>We measure mW/cm² at 6 inches with a calibrated solar meter on every full body red light panel. Many "1000W" panels under-deliver at distance.</p>
+        <h3>Stated Irradiance</h3>
+        <p>Marketing wattage and irradiance (mW/cm²) at use distance often differ. We compare manufacturer-stated irradiance values across the best red light panels.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">🌈</div>
         <h3>Dual Wavelength Output</h3>
-        <p>The best red light panels combine 660nm (red) and 850nm (near-infrared) for surface and deep coverage. We verify the LED ratio on each unit.</p>
+        <p>The best red light panels combine 660nm (red) and 850nm (near-infrared) for surface and deeper coverage. We check the LED ratio on each unit.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">🔇</div>
-        <h3>Fan & Flicker Quality</h3>
-        <p>A red light therapy full body panel runs for 10–20 minutes per session. Loud fans and EMF flicker can ruin the experience — we test both.</p>
+        <h3>Fan & Driver Quality</h3>
+        <p>A red light therapy full body panel runs for 10–20 minutes per session. Loud fans and flicker can ruin the experience — we read user feedback on both.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">🛠️</div>
         <h3>Build & Mounting Options</h3>
-        <p>The best red light therapy full body panels include a door mount, stand, or pulley system. We rate setup ease for home use.</p>
+        <p>The best red light therapy full body panels include a door mount, stand, or pulley system. We compare setup ease for home use.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">💰</div>
-        <h3>Cost Per Treatment Area</h3>
-        <p>Some red light full body panels look cheap until you calculate cost per treatment inch. We rank value by usable coverage, not just sticker price.</p>
+        <div class="why-icon">💡</div>
+        <h3>Coverage Per Dollar</h3>
+        <p>Some red light full body panels look cheap until you compare cost per treatment area. We rank value by usable coverage, not headline figures.</p>
       </div>
     </div>
   </div>
@@ -848,9 +913,9 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
 <!-- ============ TOP 3 PICKS ============ -->
 <section class="picks-section" id="picks">
   <div class="picks-header">
-    <div class="section-label">2026 Top Picks</div>
+    <div class="section-label">2026 Editorial Picks</div>
     <h2 class="section-title">Best Red Light Therapy Panel Full Body — Top 3</h2>
-    <p class="section-desc">After hands-on comparing 30+ red light panels in 2026, these three stood out for full body coverage, irradiance, and overall value.</p>
+    <p class="section-desc">Our editorial team's three favorite red light panels for full body therapy in 2026, selected for coverage, wavelength configuration, and overall value.</p>
   </div>
   <div class="picks-grid">
 
@@ -870,16 +935,23 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         <span class="pick-badge badge-1">🏆 Editor's Choice</span>
         <div class="pick-name">BIOMAX 900</div>
         <div class="pick-tag">Best red light therapy panel full body — overall winner</div>
-        <div class="pick-stars">★★★★★ <span>4.9</span> <small>(1,250 ratings)</small></div>
+
+        <div class="editor-score">
+          <div class="editor-score-num">9.6<small>/10</small></div>
+          <div class="editor-score-meta">
+            <strong>Our Rating</strong>
+            Based on our editorial criteria
+          </div>
+        </div>
+
         <ul class="pick-features">
           <li>660nm + 850nm dual wavelength output</li>
-          <li>High irradiance at 6" (lab-verified)</li>
           <li>Modular — link panels for full body coverage</li>
-          <li>Low-flicker driver, quiet fan</li>
+          <li>Solid build quality and warranty terms</li>
+          <li>Quiet operation and low-flicker driver</li>
         </ul>
-        <div class="pick-price">Check Price</div>
-        <div class="pick-price-note">Price varies on Amazon · check current listing</div>
-        <a href="https://www.amazon.com/dp/YOURID1?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check Price on Amazon →</a>
+        <div class="pick-cta-note">View live price &amp; availability on Amazon</div>
+        <a href="https://www.amazon.com/dp/YOURID1?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check on Amazon →</a>
         <a href="/posts/biomax-900-review/" class="pick-btn-secondary">Read full review →</a>
       </div>
     </div>
@@ -899,17 +971,24 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       <div class="pick-body">
         <span class="pick-badge badge-2">💰 Best Value</span>
         <div class="pick-name">Mito Red MitoPRO 1500</div>
-        <div class="pick-tag">Best value red light full body panel under $1000</div>
-        <div class="pick-stars">★★★★★ <span>4.8</span> <small>(2,847 ratings)</small></div>
+        <div class="pick-tag">Strong value full body red light panel</div>
+
+        <div class="editor-score">
+          <div class="editor-score-num">9.3<small>/10</small></div>
+          <div class="editor-score-meta">
+            <strong>Our Rating</strong>
+            Based on our editorial criteria
+          </div>
+        </div>
+
         <ul class="pick-features">
           <li>1500-LED full body coverage</li>
           <li>5 wavelength options (630/660/810/830/850nm)</li>
-          <li>Stackable for taller users</li>
-          <li>3-year warranty</li>
+          <li>Stackable design for taller users</li>
+          <li>Multi-year manufacturer warranty</li>
         </ul>
-        <div class="pick-price">Check Price</div>
-        <div class="pick-price-note">Price varies on Amazon · check current listing</div>
-        <a href="https://www.amazon.com/dp/YOURID2?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check Price on Amazon →</a>
+        <div class="pick-cta-note">View live price &amp; availability on Amazon</div>
+        <a href="https://www.amazon.com/dp/YOURID2?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check on Amazon →</a>
         <a href="/posts/mito-red-mitopro-1500-review/" class="pick-btn-secondary">Read full review →</a>
       </div>
     </div>
@@ -927,19 +1006,26 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         </div>
       </div>
       <div class="pick-body">
-        <span class="pick-badge badge-3">⭐ Budget Friendly</span>
+        <span class="pick-badge badge-3">⭐ Budget Pick</span>
         <div class="pick-name">Hooga PRO1500</div>
-        <div class="pick-tag">Most affordable red light therapy full body panel</div>
-        <div class="pick-stars">★★★★½ <span>4.6</span> <small>(3,420 ratings)</small></div>
+        <div class="pick-tag">Approachable entry red light therapy full body panel</div>
+
+        <div class="editor-score">
+          <div class="editor-score-num">9.0<small>/10</small></div>
+          <div class="editor-score-meta">
+            <strong>Our Rating</strong>
+            Based on our editorial criteria
+          </div>
+        </div>
+
         <ul class="pick-features">
-          <li>Solid full body coverage at entry price</li>
+          <li>Solid full body coverage at entry tier</li>
           <li>660nm + 850nm dual chip LEDs</li>
-          <li>Door & ceiling mount included</li>
-          <li>2-year warranty</li>
+          <li>Door &amp; ceiling mount included</li>
+          <li>Manufacturer warranty included</li>
         </ul>
-        <div class="pick-price">Check Price</div>
-        <div class="pick-price-note">Price varies on Amazon · check current listing</div>
-        <a href="https://www.amazon.com/dp/YOURID3?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check Price on Amazon →</a>
+        <div class="pick-cta-note">View live price &amp; availability on Amazon</div>
+        <a href="https://www.amazon.com/dp/YOURID3?tag=YOURTAG-20" class="pick-btn primary" target="_blank" rel="nofollow noopener sponsored">Check on Amazon →</a>
         <a href="/posts/hooga-pro1500-review/" class="pick-btn-secondary">Read full review →</a>
       </div>
     </div>
@@ -965,12 +1051,12 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
         </tr>
       </thead>
       <tbody>
-        <tr><td>Best For</td><td>Overall</td><td>Value</td><td>Budget</td></tr>
+        <tr><td>Best For</td><td>Overall</td><td>Value</td><td>Entry Tier</td></tr>
         <tr><td>Wavelengths</td><td>660 / 850 nm</td><td>5 wavelengths</td><td>660 / 850 nm</td></tr>
-        <tr><td>Full Body Coverage</td><td>Modular link</td><td>Single panel</td><td>Single panel</td></tr>
+        <tr><td>Coverage</td><td>Modular link</td><td>Single panel</td><td>Single panel</td></tr>
         <tr><td>LED Count</td><td>300+</td><td>1,500</td><td>1,500</td></tr>
-        <tr><td>Warranty</td><td>3 years</td><td>3 years</td><td>2 years</td></tr>
         <tr><td>Mounting</td><td>Stand / pulley</td><td>Door / pulley</td><td>Door / ceiling</td></tr>
+        <tr><td>Editorial Rating</td><td>9.6 / 10</td><td>9.3 / 10</td><td>9.0 / 10</td></tr>
       </tbody>
     </table>
   </div>
@@ -982,7 +1068,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
     <div style="text-align:center; max-width:680px; margin:0 auto 56px;">
       <div class="section-label">Buying Guide</div>
       <h2 class="section-title">How to Choose the Best Red Light Panel</h2>
-      <p class="section-desc">Five things we look at before recommending any red light therapy panel for full body use.</p>
+      <p class="section-desc">Six things we look at before recommending any red light therapy panel for full body use.</p>
     </div>
     <div class="guide-grid">
       <div class="guide-card">
@@ -997,23 +1083,23 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       </div>
       <div class="guide-card">
         <div class="guide-num">03 — IRRADIANCE</div>
-        <h3>Verify Output at Distance</h3>
-        <p>Marketing wattage is often misleading. What matters is irradiance (mW/cm²) at the distance you'll actually use the panel — usually 6 inches. Look for third-party measurements when possible.</p>
+        <h3>Compare Output at Distance</h3>
+        <p>Marketing wattage often differs from the irradiance (mW/cm²) you actually receive at use distance — usually 6 inches. Look for manufacturer-stated values measured at the distance you plan to use.</p>
       </div>
       <div class="guide-card">
-        <div class="guide-num">04 — FLICKER & EMF</div>
+        <div class="guide-num">04 — FLICKER &amp; EMF</div>
         <h3>Quality of the Driver Matters</h3>
-        <p>Cheap red light full body panels often flicker at 100–120Hz, which is uncomfortable for long sessions. The best red light panels use DC drivers with measured low flicker and low EMF at use distance.</p>
+        <p>Cheap red light full body panels can flicker noticeably, which is uncomfortable during long sessions. The best red light panels use DC drivers with reduced flicker and lower EMF at use distance.</p>
       </div>
       <div class="guide-card">
         <div class="guide-num">05 — WARRANTY</div>
         <h3>Don't Skip the Fine Print</h3>
-        <p>Look for at least a 2-year warranty and a brand with US-based support. LEDs degrade over time, so coverage on diode failure within the warranty window is genuinely valuable.</p>
+        <p>Look for a multi-year warranty and a brand with responsive support. LEDs can degrade over time, so coverage on diode failure within the warranty window is genuinely valuable for a long-term purchase.</p>
       </div>
       <div class="guide-card">
         <div class="guide-num">06 — RETURNS</div>
-        <h3>Check the Return Policy</h3>
-        <p>Buying through Amazon usually gives you a clean 30-day return window — important for a large purchase like a full body red light panel. Verify the seller is the brand or Amazon, not a third-party reseller.</p>
+        <h3>Check Current Return Policy</h3>
+        <p>Before purchasing, verify the current return window and warranty terms on the product's Amazon listing — these can vary by seller and change over time. Buying from the brand or Amazon directly typically offers the most consistent terms.</p>
       </div>
     </div>
   </div>
@@ -1027,30 +1113,30 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
   </div>
   <div class="faq-item">
     <h3 class="faq-q">What is the best red light therapy panel for full body use in 2026?</h3>
-    <p class="faq-a">In our 2026 hands-on comparison of 30+ red light panels, the BIOMAX 900 leads the best red light therapy panel full body category for its 660nm/850nm dual output, modular full body coverage, and verified irradiance at use distance.</p>
+    <p class="faq-a">In our 2026 editorial comparison, the BIOMAX 900 leads the best red light therapy panel full body category for its 660nm/850nm dual output, modular full body coverage, and overall build quality.</p>
   </div>
   <div class="faq-item">
     <h3 class="faq-q">What size red light panel do I need for full body coverage?</h3>
-    <p class="faq-a">For a true red light full body panel experience, look for around 36 inches of vertical coverage or a stackable system. Many of the best red light panels in the 1000–1500 LED class deliver enough area to cover the torso in one session.</p>
+    <p class="faq-a">For a true red light full body panel experience, look for around 36 inches of vertical coverage or a stackable system. Many of the best red light panels in the larger LED class deliver enough area to cover the torso in one session.</p>
   </div>
   <div class="faq-item">
     <h3 class="faq-q">Are red light therapy full body panels worth it?</h3>
-    <p class="faq-a">If you plan to use red light therapy regularly, a full body panel typically pays back its cost compared to clinic visits within a year. Smaller targeted panels work for spot use, but the best red light therapy full body panels save significant time per session.</p>
+    <p class="faq-a">If you plan to use red light therapy regularly, a full body panel can save significant time per session compared to smaller targeted panels. The right choice depends on your usage frequency, available space, and budget.</p>
   </div>
   <div class="faq-item">
     <h3 class="faq-q">What wavelengths should the best red light panels have?</h3>
     <p class="faq-a">The most studied wavelengths are 660nm (red) and 850nm (near-infrared). The best red light therapy full body panels output both, giving you surface and deeper coverage in one session.</p>
   </div>
   <div class="faq-item">
-    <h3 class="faq-q">Where is the best place to buy a red light full body panel?</h3>
-    <p class="faq-a">Most of the best red light panels we recommend are available on Amazon with full manufacturer warranty and a 30-day return window. We link to current Amazon listings on each pick — pricing on those pages is always live.</p>
+    <h3 class="faq-q">Where can I check current pricing on these red light panels?</h3>
+    <p class="faq-a">Each pick on this page links directly to the product's current Amazon listing, where pricing, availability, and return terms are always live. We do not display prices on this site because they change frequently.</p>
   </div>
 </section>
 
 <!-- ============ FINAL CTA ============ -->
 <section class="cta-section">
   <h2>Ready to Choose Your Full Body Panel?</h2>
-  <p>Compare current Amazon prices on our top 3 best red light therapy full body panels for 2026.</p>
+  <p>Check live pricing &amp; availability on our top 3 best red light therapy full body panels for 2026.</p>
   <a href="#picks" class="btn-cta">View Top 3 Picks →</a>
 </section>
 
@@ -1076,10 +1162,17 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
   </div>
 </section>
 
-<!-- ============ Medical Disclaimer (compliance) ============ -->
-<div class="medical-disclaimer">
-  <div class="medical-disclaimer-inner">
-    <strong>Health Disclaimer:</strong> RedGlow Reviews provides product comparisons and consumer information only. We are not medical professionals, and nothing on this page is medical advice, diagnosis, or treatment. Red light therapy panels and similar consumer wellness devices are not intended to diagnose, treat, cure, or prevent any disease. Consult a qualified healthcare provider before starting any new wellness routine.
+<!-- ============ Disclaimers ============ -->
+<div class="disclaimer-block">
+  <div class="disclaimer-inner">
+    <h4>Affiliate &amp; Pricing Disclosure</h4>
+    <p>RedGlow Reviews is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases. Product availability, pricing, warranty terms, and return windows shown on Amazon listings are subject to change at any time and are determined solely by Amazon and the seller. Always verify current details on the Amazon product page before purchasing. We do not control these terms.</p>
+
+    <h4>Editorial Independence</h4>
+    <p>Our editorial picks and ratings reflect the opinions of our team based on publicly available product information, manufacturer specifications, and our own evaluation criteria. We are not affiliated with any of the brands featured on this site, and our rankings are not paid placements. Our editorial ratings (e.g. 9.6/10) are our internal scores and are not Amazon customer reviews.</p>
+
+    <h4>Health Disclaimer</h4>
+    <p>RedGlow Reviews provides product comparisons and consumer information only. We are not medical professionals, and nothing on this page is medical advice, diagnosis, or treatment. Red light therapy panels and similar consumer wellness devices are not intended to diagnose, treat, cure, or prevent any disease. Consult a qualified healthcare provider before starting any new wellness routine.</p>
   </div>
 </div>
 
@@ -1088,8 +1181,11 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="footer-logo"><span class="logo-dot"></span> RedGlow Reviews</div>
-        <p>Independent reviews of the best red light therapy panels for full body use. We compare every panel hands-on so you don't have to.</p>
+        <div class="footer-logo">
+          <span class="logo-mark"></span>
+          RedGlow Reviews
+        </div>
+        <p>Independent editorial reviews of the best red light therapy panels for full body use. We compare every panel on the spec sheet so you don't have to.</p>
       </div>
       <div class="footer-col">
         <h4>Reviews</h4>
@@ -1101,8 +1197,8 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       <div class="footer-col">
         <h4>Site</h4>
         <a href="/about/">About Us</a>
+        <a href="/methodology/">Our Methodology</a>
         <a href="/contact/">Contact</a>
-        <a href="/tags/">Topics</a>
       </div>
       <div class="footer-col">
         <h4>Legal</h4>
@@ -1112,7 +1208,7 @@ const recentPosts = getSortedPosts(allPosts).slice(0, 3);
       </div>
     </div>
     <div class="footer-bottom">
-      <div>© 2026 RedGlow Reviews · Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</div>
+      <div>© 2026 RedGlow Reviews · Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</div>
       <div>As an Amazon Associate we earn from qualifying purchases.</div>
     </div>
   </div>
