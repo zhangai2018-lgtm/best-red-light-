@@ -217,7 +217,7 @@ The 940nm wavelength is a genuine differentiator for deep tissue work. The 30-de
 
 For someone entering the serious home RLT market with a budget around $700-800, this is one of the better-value options available. The 316 Amazon reviews at 4.5 stars suggest it's not just good on paper.
 
-**[Check current price and availability on Amazon](https://www.amazon.com/dp/B0XXXXX)**
+**[Check current price and availability on Amazon](https://www.amazon.com/Bestqool-Therapy-Wavelengths-Infrared-Energy/dp/B0CBPKVLYK?crid=1KDPKCU6LWLI5&dib=eyJ2IjoiMSJ9.nm-Q1AFsFda6_-oJyTkDzJ3MYSyRV5h7Xa1_PP1Duii6ETjO9ENnjacOlYQwzmgtEQJmR2sXWL55PQggV0nFaEMLsbSzAmci2Tnl-kkquFlrWtQGuG9COd2BS5WVZisEidVjlpDB7VkfCTvkHGW9NMjq0UWVBGDSBFz3XpAsLjklmCj1g6ZZ9RZ41kEspPsMmknKh0sQ2RPYTyJaevF-knKfaKIhIRXPNiJkKKLh-grDG5BkMdhBaz3fDrE846qvwnhnDVN6K5By_0YbK6C-k8d0h6kJnAGSn3QH--0-0NY.HlNq2MAJGhoEorBvthZJNw84AA7hQn5w4CHQRQjYxZ4&dib_tag=se&keywords=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody&qid=1778254288&sprefix=red%2Blight%2Btherapy%2Bpanel%2Bfull%2Bbody%2Caps%2C627&sr=8-7&th=1&linkCode=sl2&tag=zhwei26-20&linkId=54c6001c3affc916b5860862737d95c8&language=en_US&ref_=as_li_ss_tl)**
 
 ---
 
