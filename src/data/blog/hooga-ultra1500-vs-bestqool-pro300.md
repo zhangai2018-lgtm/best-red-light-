@@ -21,7 +21,7 @@ I've reviewed both panels separately ([Hooga ULTRA1500 deep dive here](/posts/ho
 
 If you're between these two, by the end of this you'll know which one fits your setup. No fence-sitting. I'll commit to recommendations.
 
-![Hooga ULTRA1500 panel listing on Amazon showing premium red light therapy device](/images/hooga-listing.jpg)
+![Hooga ULTRA1500 panel listing on Amazon showing premium red light therapy device]
 
 ---
 
