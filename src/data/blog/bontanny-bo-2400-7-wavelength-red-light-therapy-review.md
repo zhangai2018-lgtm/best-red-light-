@@ -4,7 +4,7 @@ description: "5 months testing the BONTANNY BO-2400 with 480 LEDs and 7 waveleng
 pubDatetime: 2026-05-09T13:09:00+08:00
 slug: bontanny-bo-2400-7-wavelength-red-light-therapy-review
 featured: true
-draft: false
+draft: true
 tags:
   - red-light-therapy
   - bontanny-review
