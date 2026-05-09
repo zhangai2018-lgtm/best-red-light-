@@ -4,7 +4,7 @@ description: "After 4 months with the Makiuri Neptune 300 LED panel, here's the 
 pubDatetime: 2026-05-09T12:00:00+08:00
 slug: makiuri-red-light-therapy-panel-neptune-300-review
 featured: true
-draft: false
+draft: true
 tags:
   - red-light-therapy
   - makiuri-review
@@ -312,7 +312,7 @@ If you want to actually understand the science instead of relying on marketing c
 - **The Quantified Body Podcast** — actually digs into the science, not the hype
 - **r/redlighttherapy on Reddit** — variable quality but you'll find real users discussing real experiences
 
-For more wellness reviews from this site, you might want to check out the [EXESAS 1008 LED panel review](/posts/red-light-therapy-device-full-body-review-2026) for comparison, or browse the [recovery and wellness category](/tags/recovery) for related deep dives.
+For more wellness reviews from this site, you might want to check out the [EXESAS 1008 LED panel review](/posts/red-light-therapy-device-full-body-review-2026) for comparison, or browse the [recovery and wellness category] for related deep dives.
 
 ---
 
