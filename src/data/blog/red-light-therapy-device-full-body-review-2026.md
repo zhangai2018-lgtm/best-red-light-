@@ -4,7 +4,7 @@ description: "Real talk after 6 months with a full body red light therapy device
 pubDatetime: 2026-05-09T11:00:00+08:00
 slug: red-light-therapy-device-full-body-review-2026
 featured: true
-draft: false
+draft: true
 tags:
   - red-light-therapy
   - wellness
