@@ -75,7 +75,7 @@ For surface-level skin work and standard muscle recovery, the 810/850 combo (Hoo
 
 Neither is wrong. They're just optimized for slightly different use cases.
 
-![BestQool Pro300 spec breakdown: 300 dual-chip LEDs, 4 wavelengths including 940nm deep penetration, 500W verified power](/images/jlhghfhfgh.jpg)
+![BestQool Pro300 spec breakdown: 300 dual-chip LEDs, 4 wavelengths including 940nm deep penetration, 500W verified power](https://m.media-amazon.com/images/I/61mVw2co8hL.jpg)
 
 ---
 
@@ -111,7 +111,7 @@ If your panel is going to live in one spot permanently, weight is irrelevant. If
 
 The build quality on both is genuinely solid. Hooga has the more refined feel — better fit and finish on the housing, more premium controls. BestQool is more utilitarian. Neither feels cheap.
 
-![BestQool Pro300 in real home setup, demonstrating practical weight and size for home use](/images/kljfgdgg.jpg)
+![BestQool Pro300 in real home setup, demonstrating practical weight and size for home use](https://m.media-amazon.com/images/I/81Mr4MSXLIL.jpg)
 
 ---
 
@@ -145,7 +145,7 @@ If you actually use brightness control regularly — say, you do face sessions a
 
 **$635 left in your bank account.** Money you didn't spend on a panel can be spent on accessories, a second small panel for targeted work, or simply not spent. The opportunity cost of premium pricing is real.
 
-![BestQool Pro300 modular setup: two panels connected for full 72.84 inch coverage neck to ankles](/images/klhjkhyuty.jpg)
+![BestQool Pro300 modular setup: two panels connected for full 72.84 inch coverage neck to ankles](https://m.media-amazon.com/images/I/61r6wNDpgLL.jpg)
 
 ---
 
