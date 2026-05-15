@@ -245,7 +245,7 @@ If you're going to buy a full body red light therapy device, buy one with verifi
 
 Six months of daily use, almost three grand, and I'm still using it. That's the honest answer.
 
-![Lifestyle shot showing the panel in a home wellness setup](/https://m.media-amazon.com/images/I/719YLkSNaNL.jpg)
+![Lifestyle shot showing the panel in a home wellness setup](https://m.media-amazon.com/images/I/719YLkSNaNL.jpg)
 
 [**Check the latest price and reviews on Amazon →**](https://www.amazon.com/Infrared-Dual-Chip-Clinical-Beautiful-Management/dp/B0DVRM3BZM?tag=zhwei26-20)
 
