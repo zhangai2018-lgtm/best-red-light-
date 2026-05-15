@@ -53,7 +53,7 @@ Those numbers are approximate. Real penetration depends on skin tone, body fat p
 
 This is why panels mix red and near-infrared. They're treating different tissue depths simultaneously.
 
-![Red light therapy wavelengths and penetration depth visualization showing how different nm values reach different tissue layers](/images/jlhghfhfgh.jpg)
+![Red light therapy wavelengths and penetration depth visualization showing how different nm values reach different tissue layers](https://m.media-amazon.com/images/I/717SWz-bwZL.jpg)
 
 ---
 
