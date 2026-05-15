@@ -22,7 +22,7 @@ Four months in, I've got opinions. Some of them might surprise you, especially i
 
 This isn't going to be a fluff piece. I have no relationship with Makiuri. I bought this thing with my own money, used it almost daily for sixteen weeks, and I'm going to tell you what's actually true about it, what's marketing fluff, and whether you should consider it over the $2,000+ panels that dominate Instagram ads.
 
-![Makiuri Neptune 300 LED red light therapy panel with 5 wavelength technology](/images/kljkrtert.png)
+![Makiuri Neptune 300 LED red light therapy panel with 5 wavelength technology](https://m.media-amazon.com/images/I/71EzWm7cViL.jpg)
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ Here's the breakdown of what each one does:
 - **830nm** — penetrates deeper into muscle and connective tissue, particularly studied for nerve and brain applications
 - **850nm** — deepest penetration, reaches joints, bones, and even some internal organs
 
-![Five wavelength technology showing 630nm 660nm red and 810nm 830nm 850nm infrared](/images/lkrttete.png)
+![Five wavelength technology showing 630nm 660nm red and 810nm 830nm 850nm infrared](https://m.media-amazon.com/images/I/715Xb2yuTOL.jpg)
 
 Now, is the extra 830nm wavelength a game-changer? I'm going to be honest. The clinical evidence specifically isolating 830nm as superior to a 810nm/850nm combo is mixed. Some studies show better outcomes for certain neurological applications. Others show no meaningful difference.
 
@@ -72,7 +72,6 @@ Let me give you the specs that determine whether this panel is legitimate or jun
 - **Zero EMF measured at 3 inches** — important if you care about electromagnetic exposure
 - **No flicker** — uses Meanwell drivers, the medical-grade standard
 
-![Makiuri Neptune premium features showing dual-chip LEDs irradiance and EMF specs](/images/kljkrtert.png)
 
 The 190 mW/cm² number is what matters most. For context, that's not the absolute highest in the market (some panels claim 220+ mW/cm²), but it's well above what most clinical studies use for effective dosing. The studies that actually show measurable results in muscle recovery, skin health, and pain reduction generally use doses between 5 and 30 J/cm² per session, and you can hit those numbers with this panel in 5-15 minute sessions easily.
 
@@ -88,7 +87,7 @@ The "more is better" mentality doesn't really apply here. There's a biphasic dos
 
 The weight thing matters more than you'd think. The Neptune is something I can pick up and reposition with one hand if I want to. Compare that to the 78-pound full-body monsters that basically have to live in one place forever. If you're renting, traveling, or just don't want to dedicate a permanent corner of a room to a hulking metal panel, this is a real consideration.
 
-![Makiuri Neptune panel actual size with measuring tape for scale](/images/oirwrfds.png)
+![Makiuri Neptune panel actual size with measuring tape for scale](https://m.media-amazon.com/images/I/71T92kXbSRL.jpg)
 
 ### What's in the Box
 
@@ -102,7 +101,6 @@ The unboxing experience is decent but not luxe. You get:
 
 No remote control on the Neptune model, which I'll talk about in the negatives section. No carrying case. No fancy app integration. It's a workmanlike package, not a luxury experience.
 
-![Box contents showing Makiuri panel sunglasses user manual and power cord](/images/kljufsdwer.png)
 
 ## My Actual Daily Protocol After 4 Months
 
@@ -120,7 +118,7 @@ I sit on a bench with the panel positioned 6-8 inches from my lower back. Just N
 
 This one I added after about month two. Red mode only (630nm/660nm) about 20 minutes before bed. The literature on red light therapy and circadian rhythm is interesting — unlike blue light, red light doesn't suppress melatonin, and may actually support sleep quality. My Oura ring data showed about 12% improvement in deep sleep after I added this protocol consistently.
 
-![Real user with Makiuri red light therapy panel during a session](/images/oiurtetetr.png)
+![Real user with Makiuri red light therapy panel during a session](https://m.media-amazon.com/images/I/71r4WayY94L.jpg)
 
 The total weekly time investment ends up being about 3 hours. Compare that to the gym, where I'm spending 6+ hours a week, and the time commitment for red light therapy is actually pretty modest.
 
@@ -148,7 +146,7 @@ Let me get into what actually changed and what didn't.
 
 **Mood**: This one I'm genuinely uncertain about. My mood is decent. It was decent before. I don't think the panel has done anything one way or the other.
 
-![Real user enjoying a Makiuri red light therapy session](/images/lkyuifgdg.png)
+![Real user enjoying a Makiuri red light therapy session](https://m.media-amazon.com/images/I/61MwBh6sI9L.jpg)
 
 ## How the Makiuri Compares to the Premium Brands
 
@@ -170,7 +168,6 @@ I covered this one in detail in [my previous review of the EXESAS panel](/posts/
 
 Don't. Just don't. The $200-300 panels use single-chip LEDs, often have significant flicker, the irradiance claims are measured at zero distance (marketing math), and EMF readings are typically not disclosed because they'd embarrass the manufacturer. The Makiuri at $840 sits in the sweet spot where you're getting legitimate clinical-grade performance without paying premium-brand markup.
 
-![Comparison of Makiuri Mercury Venus and Neptune models](/images/lktertrt.png)
 
 ## The Three Makiuri Models: Which One You Actually Need
 
@@ -216,7 +213,7 @@ I had a question about the warranty registration process and emailed customer se
 
 If you're someone who needs the social validation of having a recognizable brand name, Makiuri isn't going to give you that. None of your friends will recognize the brand. There's no Instagram aesthetic around it. You're just buying a good panel from a less famous company. For me this is fine. For people who buy products partly to discuss them as status objects, this matters.
 
-![Makiuri panel showing the LED array and timer display](/images/wqadasda.png)
+![Makiuri panel showing the LED array and timer display](https://m.media-amazon.com/images/I/61lSqq5nNmL.jpg)
 
 ## Common Questions I Get Asked
 
@@ -254,7 +251,6 @@ No. Red and near-infrared light don't contain UV. The panel produces gentle warm
 
 I'm not a doctor. Talk to yours. The general consensus is that red light therapy is probably safe during pregnancy because the wavelengths don't reach the fetus, but get medical advice for your specific situation, not internet advice.
 
-![Did you know red light therapy supports collagen production](/images/lrtwerwer.png)
 
 ## The Setup and First-Week Experience
 
@@ -266,7 +262,7 @@ I think this is where a lot of people give up on red light therapy. The premium 
 
 Stick with it. The cumulative effects emerge over weeks, not days. By week 3-4, you start noticing things. Sleep is better. The chronic pain spot is slightly less angry. Your skin looks marginally better. By month 3, the effects compound into something genuinely worthwhile.
 
-![Cellular health and red light therapy benefits illustration](/images/lkfgtwetw.png)
+![Cellular health and red light therapy benefits illustration](https://m.media-amazon.com/images/I/71ETuaBPeeL.jpg)
 
 ## Who Should Buy the Makiuri Neptune
 
@@ -298,8 +294,6 @@ The Makiuri Neptune is one of those rare products that deliver more than the pri
 It's not the absolute best panel money can buy. The premium brands have advantages in customer service, app integration, and full-body single-session coverage. But for someone who wants legitimate red light therapy at home without spending the equivalent of a used car, the Makiuri Neptune is the smartest purchase in this category right now.
 
 Four months in, I'd buy it again. That's the test that matters.
-
-![Makiuri red light therapy panel in a real home wellness setup](/images/lrwasdasd.png)
 
 ---
 
