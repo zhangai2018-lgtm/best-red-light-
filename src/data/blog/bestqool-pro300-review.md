@@ -21,7 +21,7 @@ BestQool's listing for the Pro300 says 500W and backs it up. Machine-tested. Tha
 
 This review is going to give you the actual numbers, what this panel does well, where it falls short, and whether the $764 price point makes sense compared to what else is out there.
 
-![BestQool Pro300 Amazon listing: 4 wavelengths, 300 dual-chip LEDs, 500W, modular design, $764](/images/qacdfsf.jpg)
+![BestQool Pro300 Amazon listing: 4 wavelengths, 300 dual-chip LEDs, 500W, modular design, $764](https://m.media-amazon.com/images/I/71dCskewDWL._AC_SL1500_.jpg)
 
 ---
 
@@ -31,7 +31,6 @@ BestQool positions the Pro300 as a mid-tier to serious home panel — not an ent
 
 The headline claim is straightforward: higher power consumption equals better results. Not more LEDs, not bigger panels — more actual wattage delivered to fewer, stronger chips.
 
-![BestQool Pro300 power comparison: fewer stronger LEDs vs more weaker LEDs, dose formula explanation](/images/hjgdewer.jpg)
 
 The formula they're referencing is real physics: Dose (J/cm²) = Power Density (mW/cm²) × Time (s) × 0.001. More irradiance at the same session length means more total energy delivered to your tissue. That's not marketing spin, that's photobiomodulation basics.
 
@@ -52,7 +51,7 @@ Instead of 810nm + 850nm for near-infrared, BestQool uses 850nm + 940nm. The dis
 
 The 940nm is a legitimate differentiator. It penetrates further than 850nm, which is relevant if you're using this for things like hip or shoulder joint work where you actually need light energy to travel several centimeters into tissue.
 
-![BestQool Pro300 specs: 19.1 lbs, 300 dual-chip LEDs, 630/660/850/940nm wavelengths, 106.35 mW/cm2 at 3 inches, spectral chart](/images/jlhghfhfgh.jpg)
+![BestQool Pro300 specs: 19.1 lbs, 300 dual-chip LEDs, 630/660/850/940nm wavelengths, 106.35 mW/cm2 at 3 inches, spectral chart](https://m.media-amazon.com/images/I/61mVw2co8hL.jpg)
 
 ### Irradiance: 106.4 mW/cm² at 3 Inches
 
@@ -80,7 +79,6 @@ The 30-degree beam angle is worth understanding. A tighter beam means higher irr
 
 This is probably the most common question if you're shopping the BestQool lineup.
 
-![BestQool lineup comparison: Pro100 (100 LEDs focused), Pro200 (200 LEDs mid-size), Pro300 (300 LEDs largest half-body)](/images/vbdfgdg.jpg)
 
 The Pro300 is the widest panel in the single-unit lineup — described as the largest panel for half-body coverage and wider than the Pro200. Both are roughly the same height, so you're choosing between how much horizontal coverage you want.
 
@@ -90,7 +88,7 @@ If you're primarily doing targeted work — lower back, shoulders, specific join
 
 ## Why BestQool Costs More Than Budget Panels
 
-![BestQool Pro300 vs others comparison: dual-chip 4 spectra vs single-chip 2 spectra, 500W verified vs fake 1000W claims, modular expandable, no EMF no flicker, Class II certified](/images/iuuighh.jpg)
+![BestQool Pro300 vs others comparison: dual-chip 4 spectra vs single-chip 2 spectra, 500W verified vs fake 1000W claims, modular expandable, no EMF no flicker, Class II certified](https://m.media-amazon.com/images/I/81Mr4MSXLIL.jpg)
 
 The comparison chart in their listing is pretty direct about what they're differentiating on:
 
@@ -104,7 +102,7 @@ The comparison chart in their listing is pretty direct about what they're differ
 
 **Modular expandable system.** Two Pro300 units connected gives you 72.84" of total height — that's actual full-body coverage from neck to ankles for most people.
 
-![BestQool modular design: 2 panels connected = 72.84 inches full body coverage](/images/klhjkhyuty.jpg)
+
 
 ---
 
@@ -112,19 +110,13 @@ The comparison chart in their listing is pretty direct about what they're differ
 
 One thing I appreciate about how people are actually using these panels: they're not building spa rooms. They're fitting them into corners of bedrooms and home offices.
 
-![BestQool Pro300 in home setup next to a Platinum LED panel, real user bedroom corner setup](/images/kljfgdgg.jpg)
-
-![BestQool session in progress, panel running with red glow filling room](/images/jljkhkh.jpg)
 
 The user who set up this corner with two panels (including a Platinum LED next to the BestQool) is doing something smart: using panels from different angles to get wraparound coverage. The BestQool's 30-degree beam angle means front coverage is solid; adding a second panel from the side addresses what a single panel can't reach.
 
-![Overhead view of dual panel home setup with stool in center, dog included](/images/zxzcsd.jpg)
+![Overhead view of dual panel home setup with stool in center, dog included](https://m.media-amazon.com/images/I/61I95Cd9G2L.jpg)
 
 That overhead shot tells you everything about real-world home RLT setups — a stool between two panels in a small room, plus a dog who wants in on the action. This is the reality, not the staged wellness spa photos.
 
-![BestQool Pro300 illuminated close-up showing LED array in operation](/images/klrtete.jpg)
-
-![BestQool panel full illumination from distance showing red light spread](/images/klyugfhf.jpg)
 
 ---
 
@@ -132,17 +124,15 @@ That overhead shot tells you everything about real-world home RLT setups — a s
 
 They present a timeline for what consistent users report:
 
-![BestQool results timeline: Week 1 muscle tension drops 30%, Week 2-3 movement discomfort alleviated, Week 4+ chronic pain drops 82%](/images/khfghfgh.jpg)
 
 Week 1: muscle tension reduction up to 30%. Weeks 2-3: noticeable improvement in movement comfort. Week 4 and beyond: chronic pain reduction up to 82% with consistent use.
 
-![BestQool back comfort improvement: before and after 4 weeks consistent use, 75% improvement claim](/images/lkhjfgsfsf.jpg)
 
 The 82% chronic pain reduction figure comes from their own data, which means you should treat it as directionally useful rather than a clinical guarantee. That said, the photobiomodulation research base for pain management and inflammation is genuinely strong — this isn't pseudoscience territory, it's a legitimate mechanism being researched actively.
 
 Important: these results require **consistent use on bare skin**. BestQool makes this explicit and it's a real consideration.
 
-![Direct skin use required for 99% light absorption vs 10% through fabric](/images/nmbhffg.jpg)
+![Direct skin use required for 99% light absorption vs 10% through fabric](https://m.media-amazon.com/images/I/61Z+XmxGfgL.jpg)
 
 Clothing blocks most of the light — up to 90% of it. Red and near-infrared don't penetrate fabric effectively. If you're doing this in a t-shirt, you're essentially wasting your time.
 
