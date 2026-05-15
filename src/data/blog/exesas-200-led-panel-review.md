@@ -19,7 +19,7 @@ That's not a typo. Most panels in this price range deliver 80-130 mW/cm² at the
 
 A 200-LED panel at $529 claiming to outshine both. That's either a legitimately impressive engineering decision or a number worth scrutinizing carefully. Let's dig into both possibilities.
 
-![EXESAS red light therapy panel Amazon listing: 200 dual-chip LEDs, 630/660/810/850nm, 1000W class, $529, 4.7 stars 184 reviews](/images/rfggdfgdv.jpg)
+![EXESAS red light therapy panel Amazon listing: 200 dual-chip LEDs, 630/660/810/850nm, 1000W class, $529, 4.7 stars 184 reviews](https://m.media-amazon.com/images/I/71OaO3SriIL._AC_SL1500_.jpg)
 
 ---
 
@@ -54,7 +54,7 @@ Sixteen pounds is notably light. The BestQool Pro300 is 19 lbs, the Hooga ULTRA1
 
 200 LEDs versus 300 in the BestQool Pro300 and Hooga ULTRA1500. This is where the "fewer but stronger" argument lives. Each LED here is running at higher individual wattage, which is what drives the irradiance numbers up despite fewer total diodes.
 
-![EXESAS full specs: 200 dual-chip LEDs, 4 wavelengths 630/660/810/850nm, 377W actual power, 224mW/cm² irradiance, 16lb, beam angle 30 degrees, base stand included](/images/jkghfghfh.jpg)
+![EXESAS full specs: 200 dual-chip LEDs, 4 wavelengths 630/660/810/850nm, 377W actual power, 224mW/cm² irradiance, 16lb, beam angle 30 degrees, base stand included](https://m.media-amazon.com/images/I/71y2tYYndmL.jpg)
 
 ### Power: 1000W Class, 377W Actual Consumption
 
@@ -72,9 +72,7 @@ This is different from BestQool's choice of 940nm instead of 810nm. Neither is c
 
 ### Irradiance at Distance
 
-![EXESAS irradiance chart: 194mW/cm² at 3 inches, 134mW/cm² at 6 inches, 116mW/cm² at 9 inches, 103mW/cm² at 12 inches, coverage areas shown](/images/jkhkhkhkh.jpg)
 
-![EXESAS key factors chart showing irradiance measurements verified with professional instrument reading 1944](/images/klferwerwer.jpg)
 
 | Distance | Irradiance | Coverage |
 |----------|-----------|----------|
@@ -94,7 +92,7 @@ Note the 30-degree beam angle, same as BestQool. The irradiance drops meaningful
 
 One of the better-thought-out aspects of this panel is the control interface.
 
-![EXESAS LCD control panel with remote: separate RED and NIR channels, 1-30 minute timer, LCD display, separate on/off for each channel](/images/bnhfhf.jpg)
+![EXESAS LCD control panel with remote: separate RED and NIR channels, 1-30 minute timer, LCD display, separate on/off for each channel](https://m.media-amazon.com/images/I/61BC2JRG1AL.jpg)
 
 The remote handles everything without touching the panel. You get:
 
@@ -104,7 +102,6 @@ The remote handles everything without touching the panel. You get:
 
 The independent channel control is something I look for in every panel I evaluate. Running red-only for skin-focused sessions and NIR-only for deeper tissue recovery on the same device is a meaningful feature. Panels that only offer combined mode are less flexible.
 
-![EXESAS control panel and side profile showing build quality in real home setting with wood floors](/images/uoyfgeer.jpg)
 
 ---
 
@@ -112,21 +109,15 @@ The independent channel control is something I look for in every panel I evaluat
 
 People are actually using this thing, and the user photos tell a more honest story than the product renders.
 
-![EXESAS panel running in doorway/hallway setup, full illumination visible](/images/hjgdsfsf.jpg)
 
-![EXESAS panel running in bedroom, red light illuminating entire room and bed from elevated position](/images/mbnhsfds.jpg)
+![EXESAS panel running in bedroom, red light illuminating entire room and bed from elevated position](https://m.media-amazon.com/images/I/711EDSQGZ2L.jpg)
 
 The bedroom shot — panel mounted above the bed, illuminating the mattress — shows someone using the optional horizontal stand configuration. EXESAS sells a heavy-duty horizontal stand separately that lets you mount the panel overhead for lying-down sessions. That's a genuinely different use case than standing in front of a panel, and relevant for people doing longer recovery sessions where standing for 15-20 minutes isn't comfortable.
 
-![EXESAS horizontal stand: heavy duty stand available for lying down full body sessions](/images/kljwrfsdf.jpg)
-
-![EXESAS panel illuminated from front showing LED array in full operation](/images/hewrfsdf.jpg)
 
 ---
-
 ## Benefits EXESAS Targets
 
-![EXESAS benefits overview: smooth skin, pain management, improved sleep, energizing, weight loss, overall wellness](/images/qsacvcx.jpg)
 
 The panel targets six application areas: skin health, pain management, sleep improvement, energy, weight management, and general wellness.
 
@@ -155,7 +146,7 @@ This is worth specifying because it affects the real total cost:
 
 The base stand being included is a genuine value add. Competitors like BestQool and Hooga sell stands separately at $80-150. At $529 with stand included vs $764 without stand, the price gap narrows considerably when you factor in equivalent setups.
 
-![EXESAS package contents: remote control included, base stand included, 36 inch panel shown from side](/images/ljljhjg.jpg)
+![EXESAS package contents: remote control included, base stand included, 36 inch panel shown from side](https://m.media-amazon.com/images/I/719YLkSNaNL.jpg)
 
 ---
 
