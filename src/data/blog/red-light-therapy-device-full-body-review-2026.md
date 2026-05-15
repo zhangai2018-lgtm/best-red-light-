@@ -1,10 +1,10 @@
 ---
 title: "Red Light Therapy Device for Full Body 2026: My 6-Month Honest Review of the EXESAS 1008 LED Panel"
 description: "Real talk after 6 months with a full body red light therapy device. Skin, sleep, recovery, the wallet damage. Whether the EXESAS 1008 LED panel is worth $2,799."
-pubDatetime: 2026-05-09T11:00:00+08:00
+pubDatetime: 2026-05-15T16:00:00+08:00
 slug: red-light-therapy-device-full-body-review-2026
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - wellness
@@ -20,7 +20,7 @@ I bought a red light therapy device for full body use back in October 2025. Six 
 
 This isn't one of those affiliate posts where someone uses the thing for two weeks and writes 3000 words of recycled marketing copy. I've been standing in front of mine almost every morning since fall, tracking sleep scores, taking before/after photos of a stubborn shoulder injury, and yes, occasionally feeling silly about the whole thing. So if you're trying to figure out whether full body red light therapy is actually worth the investment in 2026, or if you're stuck between three different panels at different price points, pull up a chair.
 
-![Full body red light therapy device by EXESAS with 1008 dual-chip LEDs](/images/kjghgjg.png)
+![Full body red light therapy device by EXESAS with 1008 dual-chip LEDs](https://m.media-amazon.com/images/I/71wVON8n9dL.jpg)
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@ I went with the EXESAS for one reason: full body coverage in a single session, n
 
 [**Check current price on Amazon →**](https://www.amazon.com/Infrared-Dual-Chip-Clinical-Beautiful-Management/dp/B0DVRM3BZM?tag=zhwei26-20)
 
-![EXESAS red light therapy device showing full coverage for two adult users](/images/jhdfgdgdfg.png)
+![EXESAS red light therapy device showing full coverage for two adult users](https://m.media-amazon.com/images/I/61BC2JRG1AL.jpg)
 
 ## The Specs That Actually Matter (And the Ones That Don't)
 
@@ -73,7 +73,6 @@ Irradiance is measured in milliwatts per square centimeter (mW/cm²). It tells y
 
 The EXESAS measures 224 mW/cm² at 3 inches and still pushes 110 mW/cm² at 12 inches of distance. For comparison, most studies on red light therapy use doses between 4-60 J/cm² per session, and you calculate joules by multiplying irradiance by time in seconds. A 10-minute session at 12 inches gives you about 66 J/cm² to your skin surface.
 
-![Irradiance and coverage chart showing power output at different distances](/images/rtdfsfsf.png)
 
 Cheaper panels often advertise "high irradiance" but measure it at zero distance, pressing the meter directly against the LEDs. At realistic treatment distance of 6-12 inches, those numbers collapse. I tested mine with a borrowed solar power meter at 6 inches and got 135 mW/cm², which matches the manufacturer claim.
 
@@ -108,7 +107,7 @@ I'm going to be honest about what worked and what didn't, because the wellness i
 
 **Post-workout recovery**: I lift four times a week. DOMS (delayed onset muscle soreness) is noticeably reduced when I do a 10-minute session immediately after training. Studies back this up — there's pretty solid evidence for PBM accelerating muscle recovery.
 
-![Real product photo showing the panel in a home setup](/images/kjfgdfs.png)
+![Real product photo showing the panel in a home setup](https://m.media-amazon.com/images/I/71y2tYYndmL.jpg)
 
 ### What Was Underwhelming
 
@@ -122,7 +121,6 @@ I'm going to be honest about what worked and what didn't, because the wellness i
 
 This Amazon review from another user pretty much matches my experience on the wellness benefits side:
 
-![Verified Amazon purchase review of the EXESAS red light therapy device](/images/kljutrty.png)
 
 The "my dog loves it too" thing is real. My cat has decided that the carpet square in front of the panel is now her territory during my morning sessions. Make of that what you will.
 
@@ -147,7 +145,7 @@ Here's the protocol I've settled on after a lot of experimentation:
 - Direct exposure on whatever joint or muscle is bugging me
 - Usually 2-3 times a week for the rotator cuff
 
-![Control panel showing the timer and red/NIR mode toggles](/images/lkedfswesda.png)
+![Control panel showing the timer and red/NIR mode toggles](https://m.media-amazon.com/images/I/61AGVvrly7L.jpg)
 
 The timer goes from 1 to 30 minutes. I've never gone past 20. There's a concept called the biphasic dose response in PBM literature, which basically means more isn't better past a certain point. Going for 60-minute sessions doesn't multiply benefits, and may actually reverse them at the cellular level.
 
@@ -155,7 +153,6 @@ The timer goes from 1 to 30 minutes. I've never gone past 20. There's a concept 
 
 The EXESAS ships with everything you need:
 
-![Package contents including remote, sunglasses, base stand, power cord, manual, and the panel itself](/images/qwasdasd.png)
 
 - The panel itself (78 lbs, requires careful unboxing)
 - Heavy duty base stand (vertical, included)
@@ -167,7 +164,7 @@ The EXESAS ships with everything you need:
 
 The panel weighs 78 pounds. Get someone to help you set it up. The base stand is solid steel, not the wobbly aluminum nonsense some cheaper brands ship. There are also pre-drilled holes for installing it on a horizontal stand if you want to do treatments lying down, but that stand is sold separately.
 
-![Horizontal stand configuration for lying-down treatments](/images/gsdfesfsdf.png)
+![Horizontal stand configuration for lying-down treatments](https://m.media-amazon.com/images/I/711EDSQGZ2L.jpg)
 
 ## Comparing It to Other Full Body Options on the Market
 
@@ -205,7 +202,6 @@ I'm going to be straight with you. A red light therapy device for full body use 
 
 [**View the EXESAS panel on Amazon →**](https://www.amazon.com/Infrared-Dual-Chip-Clinical-Beautiful-Management/dp/B0DVRM3BZM?tag=zhwei26-20)
 
-![Best full body red light therapy device benefits overview](/images/mndfgdgdgd.png)
 
 ## Common Questions People Actually Ask Me
 
@@ -249,7 +245,7 @@ If you're going to buy a full body red light therapy device, buy one with verifi
 
 Six months of daily use, almost three grand, and I'm still using it. That's the honest answer.
 
-![Lifestyle shot showing the panel in a home wellness setup](/images/lkerwedfs.png)
+![Lifestyle shot showing the panel in a home wellness setup](/https://m.media-amazon.com/images/I/719YLkSNaNL.jpg)
 
 [**Check the latest price and reviews on Amazon →**](https://www.amazon.com/Infrared-Dual-Chip-Clinical-Beautiful-Management/dp/B0DVRM3BZM?tag=zhwei26-20)
 
