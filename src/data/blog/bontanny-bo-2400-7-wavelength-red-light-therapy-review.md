@@ -22,7 +22,7 @@ I'd already done two long-term reviews on this site — the [EXESAS 1008 LED pan
 
 So I bought the BONTANNY BO-2400 specifically to test that hypothesis. Five months of daily use later, I have an answer that surprised me. It's not a simple yes or no, and I'm going to explain exactly why.
 
-![BONTANNY BO-2400 premium full-body panel with 7 wavelengths and FDA Class II certification](/images/awcsdfsdf.png)
+![BONTANNY BO-2400 premium full-body panel with 7 wavelengths and FDA Class II certification](https://m.media-amazon.com/images/I/71d6YChvAWL.jpg)
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@ I don't have acne anymore, but my 16-year-old niece does. She visited for two we
 
 The 480nm wavelength is legitimate therapy. Whether you specifically need it depends on whether you have acne or inflammatory skin conditions. If you're 40-something and your acne years are behind you, this wavelength is mostly redundant.
 
-![Three separate light therapy modes - blue light, red light, and near-infrared on the BONTANNY](/images/azczxc.png)
+![Three separate light therapy modes - blue light, red light, and near-infrared on the BONTANNY](https://m.media-amazon.com/images/I/71eTukMeXnL.jpg)
 
 ### 630nm and 660nm Red — Standard Skin Therapy
 
@@ -78,7 +78,7 @@ This is the unusual one. 1060nm sits at the boundary between near-infrared and f
 
 Subjectively, when I run sessions with the 1060nm wavelength engaged, I feel a deeper warmth that persists longer after the session ends. Whether that's psychological or actual deeper tissue heating, I can't tell you with scientific certainty. What I can tell you is that for my chronic IT band issue from years of running, the deeper-feeling sessions seemed to provide more lasting relief than my previous panel without 1060nm.
 
-![7 therapeutic wavelengths showing skin layer penetration depth from 480nm to 1060nm](/images/qadsadasd.png)
+![7 therapeutic wavelengths showing skin layer penetration depth from 480nm to 1060nm](https://m.media-amazon.com/images/I/71EBJnmpT3L.jpg)
 
 ### The Honest Take on 7 Wavelengths
 
@@ -122,7 +122,7 @@ I tracked sleep with my Oura ring. I took monthly photos of my skin (face, arms,
 
 **Hair**: I have a receding hairline. I don't think it's better or worse. I'm not convinced the panel does anything meaningful for hair growth in adult men.
 
-![Real noticeable changes within 4 weeks - acne, skin firmness, muscle repair](/images/dssdasd.png)
+![Real noticeable changes within 4 weeks - acne, skin firmness, muscle repair](https://m.media-amazon.com/images/I/61RTpoqmVpL.jpg)
 
 ## Build Quality and Design Details
 
@@ -132,19 +132,17 @@ This is where the BONTANNY genuinely impressed me, and where you can see the eng
 
 Unlike some competitors that use plastic enclosures with metal accents, the BONTANNY uses solid metal housing throughout. This matters for two reasons: heat dissipation and longevity. Metal sheds heat better than plastic, which means the LEDs run cooler and last longer. It also feels noticeably more premium when you handle it.
 
-![Premium all-metal housing showing solid metal construction](/images/erwrwer.png)
 
 ### Triple Cooling Fan System
 
 Most panels have one or two cooling fans. The BO-2400 has three, with what the manufacturer claims is a 46% improvement in cooling efficiency over typical designs. In practice, this means I can run continuous 30-minute sessions without the panel getting uncomfortably warm to the touch, and the fans themselves are remarkably quiet — I can have a conversation in a normal voice during sessions.
 
-![Advanced cooling system with triple fan design and 46% improved cooling rate](/images/ererwrw.png)
 
 ### Dual-Chip LED Technology
 
 Each of the 480 LEDs uses dual-chip architecture, meaning two separate light-emitting chips per LED housing. This produces approximately 30% higher output power per LED compared to single-chip designs, and significantly extends LED lifespan. With 100,000 hour rated lifespan and the better cooling system, this panel should outlast cheap alternatives by 3-5x.
 
-![Dual-chip LED technology showing 30% higher output power](/images/fgerfsf.png)
+![Dual-chip LED technology showing 30% higher output power](https://m.media-amazon.com/images/I/71M28Kbd0ML.jpg)
 
 ### FDA Class II Medical Device Certification
 
@@ -154,7 +152,6 @@ The BONTANNY is certified as an FDA Class II medical device. This is actually me
 
 Here's the catch. The BO-2400 is designed to be hung on a wall (chains and hooks included) or mounted to an optional stand. The stand is sold separately, which is annoying. If you don't have a wall location where you can hang the panel, factor in an additional $150-200 for the BONTANNY-compatible stand.
 
-![Compatible with BONTANNY stand sold separately](/images/iotetete.png)
 
 I went with wall hanging in my home office, which works fine but limits where I can do sessions. If I were doing this over, I'd probably bite the bullet on the stand for the flexibility.
 
@@ -178,7 +175,7 @@ Joovv has the marketing budget and the brand recognition. The Solo 3.0 has 300 L
 
 Mito Red Light is solid mid-range premium. 4 wavelengths, decent build quality, established brand. The BONTANNY has more wavelengths, more LEDs, and the medical device certification, at a reasonable price difference. The Mito has better customer service infrastructure.
 
-![Pick your perfect match from BONTANNY's panel sizes - 12, 60, 224, and 480 LEDs](/images/gferdsfsfaf.png)
+![Pick your perfect match from BONTANNY's panel sizes - 12, 60, 224, and 480 LEDs](https://m.media-amazon.com/images/S/aplus-media-library-service-media/f05e23b1-333a-499d-9640-568702190534.__CR0,0,1464,600_PT0_SX1464_V1___.jpg)
 
 ## Who Should Actually Buy This
 
@@ -219,13 +216,12 @@ You can run blue light only, red light only, near-infrared only, or any combinat
 
 Once installed, the wall-hung configuration is actually preferable for me. The panel doesn't take up floor space, it's at exactly the right height for full-body exposure when I stand against the wall, and it stays out of the way when I'm not using it.
 
-![BONTANNY panel in actual home setup with hanging configuration](/images/sddasdad.png)
 
 ### The Lying Down Option
 
 With the optional horizontal stand, you can position the panel directly above a treatment table or bed. This is the spa-style setup you see in clinics, and it's significantly more relaxing than standing in front of a vertical panel. If you're going to use this for serious therapy applications, the horizontal setup is worth the additional investment.
 
-![BONTANNY panel in horizontal stand configuration over treatment table](/images/mnfgdgdfg.png)
+![BONTANNY panel in horizontal stand configuration over treatment table](https://m.media-amazon.com/images/I/71kLsH6y0VL._AC_SL1500_.jpg)
 
 ## What Annoys Me About It
 
@@ -251,7 +247,6 @@ I have no way to independently verify that the 1060nm LEDs are actually operatin
 
 If you're buying wellness equipment partly for the social signaling, BONTANNY isn't going to provide that. None of your friends will recognize the brand. There's no Instagram aesthetic around it. You're just buying a quality product from a less-famous manufacturer.
 
-![Real product photo showing the BONTANNY panel from behind with cooling vents](/images/klfdfsfsssf.png)
 
 ## Common Questions I Get Asked
 
@@ -279,7 +274,7 @@ Yes. It requires the manufacturer to comply with specific design, quality, and s
 
 If you'd otherwise be going to a clinic for sessions: yes, probably within 6 months at three sessions per week. At ~$45 per session, that's $11,700 per year. The panel pays for itself in 4-5 months at clinic frequency.
 
-![Verified user review showing real results from red light therapy](/images/poerwdfs.png)
+![Verified user review showing real results from red light therapy](https://m.media-amazon.com/images/I/71ObEnxBjVL._AC_SL1500_.jpg)
 
 ## My Daily Routine With the BO-2400
 
@@ -314,8 +309,6 @@ For users who only need basic red light and near-infrared therapy, the [Makiuri 
 Five months in, I'd buy it again. That's the test that matters.
 
 [**Get the BONTANNY BO-2400 on Amazon →**](https://www.amazon.com/BONTANNY-Therapy-Infrared-Clinical-BO-2400/dp/B0F8Q2P11Q?tag=zhwei26-20)
-
-![BONTANNY BO-2400 panel during an actual user session](/images/prwerwrwe.png)
 
 ---
 
