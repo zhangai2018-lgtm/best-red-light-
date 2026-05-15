@@ -17,7 +17,7 @@ I've been using red and near-infrared light panels for about two years now, and 
 
 This review is going to be straight. No fluff, no "this panel changed my life" nonsense. Just what it does, how it works, what the numbers actually mean, and whether it makes sense for your situation.
 
-![Hooga ULTRA1500 full body red light therapy panel product listing on Amazon](/images/gfdggdg.jpg)
+![Hooga ULTRA1500 full body red light therapy panel product listing on Amazon](https://m.media-amazon.com/images/I/71IzhRSvGoL.jpg)
 
 ---
 
@@ -63,7 +63,6 @@ The ULTRA1500's measured irradiance at various distances:
 | 12 inches | 114 mW/cm² | 51" x 20" |
 | 18 inches | 82 mW/cm² | 58" x 27" |
 
-![ULTRA1500 irradiance and coverage chart showing mW/cm² at different distances](/images/klkgdg.jpg)
 
 Most practitioners suggest operating in the 20-200 mW/cm² range. At 6 inches, you're sitting comfortably in that zone with 165 mW/cm². At 12 inches you get broader coverage (51" x 20") while still maintaining solid irradiance of 114 mW/cm².
 
@@ -71,7 +70,7 @@ For reference: a lot of budget panels claiming "high irradiance" top out around 
 
 ### Physical Dimensions and Build
 
-![Hooga ULTRA1500 dimensions: 39.5 inches tall, 8.6 inches wide, 2.5 inches deep, 28 lbs, 300 LEDs](/images/jkhghfhf.jpg)
+![Hooga ULTRA1500 dimensions: 39.5 inches tall, 8.6 inches wide, 2.5 inches deep, 28 lbs, 300 LEDs](https://m.media-amazon.com/images/I/7175jLfhqQL.jpg)
 
 This panel is 39.5 inches tall. That covers most of your torso if you're standing. For a true full-body session, you'd either need two panels stacked (Hooga sells modular connection hardware for this) or you do upper body and then reposition for lower body. That's a real limitation worth knowing upfront.
 
@@ -83,7 +82,6 @@ The construction is aluminum with integrated cooling fans on the back. The fans 
 
 One of the things I didn't expect to care about was the control interface, and then I actually started using it.
 
-![Hooga ULTRA1500 touchscreen control panel showing timer, red/infrared channel controls, and pulse mode](/images/jkhghfsdf.jpg)
 
 The front-facing touchscreen lets you:
 
@@ -92,7 +90,6 @@ The front-facing touchscreen lets you:
 - Toggle pulse mode at 10Hz, which some researchers have explored for neurological applications
 - Adjust brightness at 10%, 50%, or 100%
 
-![ULTRA1500 panel running a session, timer showing 14:48](/images/jkjhkhdfgdfg.jpg)
 
 The independent channel control is the feature I actually use the most. Morning skin sessions: I'll run red light heavier. Evening recovery sessions after training: heavier on the NIR side. It's a simple toggle but it changes how flexible the panel is for different use cases.
 
@@ -100,7 +97,7 @@ The independent channel control is the feature I actually use the most. Morning 
 
 ## Key Features Overview
 
-![Hooga ULTRA Series upgraded features: modular connectivity, adjustable timer, customizable brightness, pulse functionality, zero flicker, low EMF, 4 wavelengths per LED](/images/klghff.jpg)
+![Hooga ULTRA Series upgraded features: modular connectivity, adjustable timer, customizable brightness, pulse functionality, zero flicker, low EMF, 4 wavelengths per LED](https://m.media-amazon.com/images/I/616gwg-Fe7L.jpg)
 
 A quick rundown of what you're getting:
 
@@ -116,13 +113,12 @@ A quick rundown of what you're getting:
 
 ## Designed for Home Use, Not Just Gym Showoffs
 
-![Hooga ULTRA1500 designed for at-home light sessions - flexible positioning, adjustable distance and brightness, hands-free use](/images/kljjhjkhjk.jpg)
 
 One thing I'll say about this panel vs. some of the fancier options: Hooga clearly built this for people who are actually going to use it daily in a regular home, not for Instagram content.
 
 The mounting hardware is straightforward. You can wall-mount it, use a stand (sold separately), or just prop it up. The 60-degree beam angle means you don't need to be within inches of it for effective coverage — you can stand back 12+ inches and still get useful irradiance across a wide area.
 
-![Red and near-infrared light technology chart showing wavelengths and use cases for full body and targeted sessions](/images/lkhjgjgj.jpg)
+![Red and near-infrared light technology chart showing wavelengths and use cases for full body and targeted sessions](https://m.media-amazon.com/images/I/61FYbfcq-sL.jpg)
 
 ---
 
@@ -132,11 +128,10 @@ I looked through a bunch of verified purchase reviews, and a few themes kept com
 
 One reviewer who'd been doing in-office red light treatments for melasma said she noticed results after about a month of home use, with her skin appearing brighter and slightly firmer. She compared it favorably to face masks and smaller panels, calling those "light weight and ineffective" by comparison.
 
-![Amazon 5-star review: Effective on Melasma and small wrinkles, verified purchase](/images/kkghhfh.jpg)
 
 Another reviewer with an autoimmune condition was using it for joint pain management. She mentioned it's not cheap, but called it solidly built and "not cheaply made at all" — and that it was ready to use straight out of the box.
 
-![Amazon 5-star review for autoimmune joint pain and skin health, verified purchase March 2026](/images/wqsdasd.jpg)
+![Amazon 5-star review for autoimmune joint pain and skin health, verified purchase March 2026](https://m.media-amazon.com/images/I/71xj0zviPzL.jpg)
 
 The pattern I noticed: people who'd done research before buying, understood what they were getting, and used it consistently were generally satisfied. The complaints (when they existed) were usually about the price point and the panel not covering the full body in one shot.
 
@@ -154,7 +149,7 @@ This isn't medical advice — consult a healthcare provider if you have specific
 
 **Eye protection:** Near-infrared is invisible to the naked eye but still interacts with retinal tissue. Eye protection is recommended, especially for sessions where your face is near the panel.
 
-![Red light therapy session in progress with panel illuminating](/images/qwasdsd.jpg)
+![Red light therapy session in progress with panel illuminating](https://m.media-amazon.com/images/I/81BuLCmtHxL._AC_SL1500_.jpg)
 
 ---
 
