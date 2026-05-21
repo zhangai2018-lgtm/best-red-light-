@@ -1,10 +1,10 @@
 ---
 title: "Makiuri Red Light Therapy Panel Review 2026: Is the Neptune 300 LED Worth $840 for Home Use?"
 description: "After 4 months with the Makiuri Neptune 300 LED panel, here's the honest verdict on 5 wavelengths, irradiance claims, and whether $840 is actually fair for home red light therapy."
-pubDatetime: 2026-05-09T12:00:00+08:00
+pubDatetime: 2026-05-21T14:01:00+08:00
 slug: makiuri-red-light-therapy-panel-neptune-300-review
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - makiuri-review
