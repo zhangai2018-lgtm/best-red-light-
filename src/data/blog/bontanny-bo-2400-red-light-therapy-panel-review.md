@@ -4,7 +4,7 @@ description: "Honest 5-month review of the BONTANNY BO-2400 7-wavelength red lig
 pubDatetime: 2026-05-21T14:01:00+08:00
 slug: bontanny-bo-2400-red-light-therapy-panel-review
 featured: true
-draft: false
+draft: true
 tags:
   - bontanny-bo-2400
   - red-light-therapy
