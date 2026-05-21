@@ -12,8 +12,6 @@ tags:
   - van-life
   - product-review
   - recovery-equipment
-ogImage: "/images/bontanny-bo-2400-hero.jpg"
-canonicalURL: "https://yourdomain.com/posts/bontanny-bo-2400-red-light-therapy-panel-review"
 ---
 
 Not a doctor. Not a PT. Just a guy who lives in a van, works Forest Service contracts, and has spent a decade hauling lumber and dragging fire hose in ways that have made my shoulder a reliable weather forecaster. That's the context for everything that follows.
