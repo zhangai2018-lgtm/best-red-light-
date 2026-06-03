@@ -1,10 +1,10 @@
 ---
 title: "BONTANNY BO-2400 Review 2026: Is the 7-Wavelength Red Light Therapy Panel Actually Worth It?"
 description: "5 months testing the BONTANNY BO-2400 with 480 LEDs and 7 wavelengths including 480nm blue light and 1060nm far-infrared. Honest pros, cons, and who should buy it."
-pubDatetime: 2026-05-09T13:09:00+08:00
+pubDatetime: 2026-06-03T13:01:00+08:00
 slug: bontanny-bo-2400-7-wavelength-red-light-therapy-review
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - bontanny-review
