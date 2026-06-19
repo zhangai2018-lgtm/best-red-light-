@@ -11,7 +11,6 @@ tags:
   - full-body-panel
   - recovery
   - near-infrared
-ogImage: "/images/1781843308065_image.png"
 ---
 
 *Disclosure: This post contains affiliate links. I may earn a small commission at no extra cost to you if you purchase through these links.*
