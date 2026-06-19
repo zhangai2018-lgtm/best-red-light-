@@ -1,10 +1,10 @@
 ---
 title: "BONTANNY BO-2400 Red Light Therapy Panel Review: 5 Months of Daily Use in a Sprinter Van"
 description: "Honest 5-month review of the BONTANNY BO-2400 7-wavelength red light therapy panel. Real results, setup challenges, and whether 480 LEDs justify the price in mobile living."
-pubDatetime: 2026-05-21T14:01:00+08:00
+pubDatetime: 2026-06-19T08:01:00+08:00
 slug: bontanny-bo-2400-red-light-therapy-panel-review
 featured: true
-draft: true
+draft: false
 tags:
   - bontanny-bo-2400
   - red-light-therapy
@@ -201,6 +201,7 @@ Five months, roughly 120 sessions. The shoulder is better. The skin thing I didn
 
 What I can say is I'm still using it daily, which is more than I can say for the massage gun gathering vibration damage under my bed.
 
+[See Today's Deal on Amazon](https://www.amazon.com/BONTANNY-Therapy-Infrared-Clinical-BO-2400/dp/B0F8Q2P11Q?crid=20LYCEGC9QA6B&dib=eyJ2IjoiMSJ9.VzeRGt0cuni2dh7k3RN4uTzMwCZ9r2EyClrEMbPmEPZWCNSBQku-56ONZ1az7BHds9wGLs_Me7X2r-tcXhmkgV-IlLivrBczIG60IveajNrolkx2z5ufUfMRGzEYBOVMBXyo4xXvT-RoT-T_5dFjGYcyi9AcgjaU-pJ--FOxuILQFznkFcrKvLxuQUgWouBgXWGWYUjo3X630kjDGjXtrp3C5ImEdrQKee_PoOJontvZMp3FGF9Of85x64op8dajukNeejRFtxtjgvynjxjGkYGKgFHmHM1rHb56kYXQnjA.proqhMkmEMkSfVR9bYrys9XfqI45g0qokQ7DAAki_lU&dib_tag=se&keywords=Red%2BLight%2BPanel&qid=1779352616&sprefix=red%2Blight%2Bpanel%2Caps%2C789&sr=8-11&th=1&linkCode=ll2&tag=zhwei26-20&linkId=ea3d18dc8e19828f558e5fa22e0e26e2&language=en_US&ref_=as_li_ss_tl)
 ---
 
 **Affiliate Disclosure:** This post contains Amazon Associates links. If you purchase through these links I earn a small commission at no additional cost to you. I bought my own BO-2400 before joining the program. Opinions are based on 5 months of daily use and are not influenced by commission incentives.
