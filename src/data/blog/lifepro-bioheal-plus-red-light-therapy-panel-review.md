@@ -3,8 +3,8 @@ title: "LifePro BioHeal Plus Red Light Therapy Panel Review: 120 LEDs, 660nm & 8
 description: "Honest review of the LifePro BioHeal Plus red light therapy panel. 120 dual-chip LEDs, 660nm + 850nm, 212mw/cm² irradiance, pulse mode, lifetime warranty — real results from 795 owners."
 pubDatetime: 2026-06-25T10:25:00+08:00
 slug: "lifepro-bioheal-plus-red-light-therapy-panel-review"
-featured: false
-draft: false
+featured: true
+draft: true
 tags:
   - red-light-therapy
   - lifepro
@@ -141,7 +141,7 @@ Skin benefits rank fifth in mentions (46) behind Quality, Pain Relief, Ease of U
 
 For dedicated facial skincare work, the 90 LED version ($136) is probably more appropriate. The 120 LED's strength is body coverage, not precision facial treatment. That said, multiple owners use it for both.
 
-[Related Post: Hooga PRO300 Red Light Therapy Panel Review](/posts/hooga-pro300-red-light-therapy-panel-review) covers a panel optimized for facial and targeted body work if skin is your primary goal.
+covers a panel optimized for facial and targeted body work if skin is your primary goal.
 
 ---
 
