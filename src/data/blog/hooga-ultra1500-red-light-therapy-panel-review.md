@@ -1,10 +1,10 @@
 ---
 title: "Hooga ULTRA1500 Review 2026: Full Body Red Light Therapy Panel Tested"
 description: "Honest Hooga ULTRA1500 review: 300 quad-chip LEDs, 4 wavelengths, full body coverage. Real results for recovery, skin & sleep. See if it's worth the price."
-pubDatetime: 2026-06-19T08:01:00+08:00
+pubDatetime: 2026-06-25T10:25:00+08:00
 slug: "hooga-ultra1500-red-light-therapy-panel-review"
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - hooga
