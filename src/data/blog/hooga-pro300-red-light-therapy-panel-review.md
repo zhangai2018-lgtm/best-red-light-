@@ -1,10 +1,10 @@
 ---
 title: "Hooga PRO300 Review 2026: 660nm/850nm Panel Worth $299?"
 description: "Honest review of the Hooga PRO300 red light therapy panel. 660nm red and 850nm NIR dual-chip LEDs, real user results for skin, muscle recovery, and pain relief in 2026."
-pubDatetime: 2026-06-25T10:25:00+08:00
+pubDatetime: 2026-07-01T10:25:00+08:00
 slug: "hooga-pro300-red-light-therapy-panel-review"
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - hooga
