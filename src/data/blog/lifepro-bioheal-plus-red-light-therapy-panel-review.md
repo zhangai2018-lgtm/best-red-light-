@@ -1,10 +1,10 @@
 ---
 title: "LifePro BioHeal Plus Red Light Therapy Panel Review: 120 LEDs, 660nm & 850nm, Full Body at $266"
 description: "Honest review of the LifePro BioHeal Plus red light therapy panel. 120 dual-chip LEDs, 660nm + 850nm, 212mw/cm² irradiance, pulse mode, lifetime warranty — real results from 795 owners."
-pubDatetime: 2026-06-25T10:25:00+08:00
+pubDatetime: 2026-07-09T14:10:00+08:00
 slug: "lifepro-bioheal-plus-red-light-therapy-panel-review"
 featured: true
-draft: true
+draft: false
 tags:
   - red-light-therapy
   - lifepro
