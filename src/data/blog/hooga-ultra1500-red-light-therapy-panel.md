@@ -3,7 +3,7 @@ title: "Hooga Ultra1500 Red Light Therapy Panel Review: A Deep Dive Into the 300
 description: "Is the Hooga Ultra1500 worth $1,399? I tested this 300 quad-chip red light panel for weeks. Here's my honest take on coverage, results, and whether it beats other panels."
 pubDatetime: 2026-07-19T18:21:00+08:00
 featured: true
-draft: false
+draft: true
 slug: "hooga-ultra1500-red-light-therapy-panel"
 tags: ["red-light-therapy", "hooga", "full-body-panel", "recovery-tools", "led-therapy"]
 ---
@@ -46,7 +46,7 @@ Okay, let's talk about results. Because at the end of the day, the Ultra1500 is 
 
 I used the panel every day for about three weeks. Sessions lasted 10-15 minutes, depending on what I was targeting. I aimed the light at my shoulder, my face, and occasionally my legs after a long walk.
 
-**Shoulder recovery:** This is the most obvious benefit. The dull ache in my shoulder is significantly reduced. It's not gone entirely, but it's manageable. I'm not waking up in the middle of the night because the pain has shifted into a weird position. The near-infrared wavelengths (810nm and 850nm) seem to be doing their job, penetrating deep enough to hit the underlying inflammation. I've tried other recovery tools before—I reviewed the [Lifepro Bioheal Plus red light therapy panel](/posts/lifepro-bioheal-plus-red-light-therapy-panel-review) and the [Makiiuri Neptune 300](/posts/makiiuri-red-light-therapy-panel-neptune-300-review)—and the Ultra1500 is noticeably more effective. I think the larger coverage area and the quad-chip design make a difference.
+**Shoulder recovery:** This is the most obvious benefit. The dull ache in my shoulder is significantly reduced. It's not gone entirely, but it's manageable. I'm not waking up in the middle of the night because the pain has shifted into a weird position. The near-infrared wavelengths (810nm and 850nm) seem to be doing their job, penetrating deep enough to hit the underlying inflammation. I've tried other recovery tools before—I reviewed the [Lifepro Bioheal Plus red light therapy panel](/posts/lifepro-bioheal-plus-red-light-therapy-panel-review) and the [Makiiuri Neptune 300]—and the Ultra1500 is noticeably more effective. I think the larger coverage area and the quad-chip design make a difference.
 ![Hooga Ultra1500 Red Light](/images/nbfgrdferwer.jpeg) 
 **Skin improvements:** My face looks better. Brighter, smoother, a bit more even. I've been using the panel on my face for about 5 minutes each session, and the results are subtle but real. Fine lines are less pronounced. My skin has a healthy glow that wasn't there before. It's not a dramatic transformation, but it's enough that my partner noticed and asked what I was doing differently.
 
@@ -76,7 +76,7 @@ The Hooga Ultra1500 is a premium panel for people who are serious about red ligh
 
 It's particularly good for people who want full-body coverage. The 69-inch height means you can stand in front of it and hit your entire body in one session. No repositioning, no messing around with multiple panels. It's also great for people who want versatility—the four wavelengths cover both surface-level and deep-tissue benefits, so you're not locked into one specific use case.
 
-But I also have to be honest: if you're new to red light therapy, the Ultra1500 might be overkill. A smaller panel like the Hooga Ultra750 or even the BestQool Pro300 would give you a lot of the same benefits at a lower price point. You could also explore the [Makiiuri Neptune 300](/posts/makiiuri-red-light-therapy-panel-neptune-300-review) or the [Lifepro Bioheal Plus](/posts/lifepro-bioheal-plus-red-light-therapy-panel-review) if you want to stay in a lower budget tier.
+But I also have to be honest: if you're new to red light therapy, the Ultra1500 might be overkill. A smaller panel like the Hooga Ultra750 or even the BestQool Pro300 would give you a lot of the same benefits at a lower price point. You could also explore the [Makiiuri Neptune 300] or the [Lifepro Bioheal Plus](/posts/lifepro-bioheal-plus-red-light-therapy-panel-review) if you want to stay in a lower budget tier.
 
 [If you grab one through the links here, I might get a small cut — costs you nothing extra and keeps the lights on.]
 
